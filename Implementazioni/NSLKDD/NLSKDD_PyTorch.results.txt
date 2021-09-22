@@ -1,0 +1,1677 @@
+Modello = layers: [80, 200, 70] + Dropout(0.6) + batchNorm()
+
+- train_loop(model, epochs=300, lr=0.001, wd=0.02)
+
+ep  0 training loss:  0.3771159083652883
+valid loss  0.12710996127128601  and accuracy  0.9708
+ep  1 training loss:  0.11318863651509196
+valid loss  0.07895379172563553  and accuracy  0.9808
+ep  2 training loss:  0.0962419051477325
+valid loss  0.08163107724189758  and accuracy  0.9844
+ep  3 training loss:  0.09167477655973605
+valid loss  0.08167610663175583  and accuracy  0.9808
+ep  4 training loss:  0.09438819450657816
+valid loss  0.08088755398988724  and accuracy  0.9796
+ep  5 training loss:  0.09652814245018998
+valid loss  0.08294461292028427  and accuracy  0.988
+ep  6 training loss:  0.09689679447607291
+valid loss  0.08889722502231598  and accuracy  0.9788
+ep  7 training loss:  0.09780945604730767
+valid loss  0.0848397432088852  and accuracy  0.9856
+ep  8 training loss:  0.09780563966676195
+valid loss  0.08294688168764114  and accuracy  0.9824
+ep  9 training loss:  0.09764686340288646
+valid loss  0.07400419515371323  and accuracy  0.9876
+ep  10 training loss:  0.0955976698074244
+valid loss  0.07608351727724075  and accuracy  0.9848
+ep  11 training loss:  0.09786860992686931
+valid loss  0.07648053294420243  and accuracy  0.9892
+ep  12 training loss:  0.09351719021149285
+valid loss  0.08034961658716201  and accuracy  0.9868
+ep  13 training loss:  0.09356243485944779
+valid loss  0.07888275594711304  and accuracy  0.9884
+ep  14 training loss:  0.09226479338379076
+valid loss  0.07614340170621872  and accuracy  0.9876
+ep  15 training loss:  0.08974671967410866
+valid loss  0.07125019916296005  and accuracy  0.9884
+ep  16 training loss:  0.08836529645141097
+valid loss  0.08417054780721664  and accuracy  0.9852
+ep  17 training loss:  0.09026770714698765
+valid loss  0.0702306016921997  and accuracy  0.99
+ep  18 training loss:  0.0887206041489614
+valid loss  0.0842978854894638  and accuracy  0.9884
+ep  19 training loss:  0.08888257956057276
+valid loss  0.06886216615438462  and accuracy  0.9904
+ep  20 training loss:  0.08858835231686699
+valid loss  0.07604296360015869  and accuracy  0.988
+ep  21 training loss:  0.08779611934193726
+valid loss  0.07426443201303481  and accuracy  0.99
+ep  22 training loss:  0.08810336863914194
+valid loss  0.08227351838350296  and accuracy  0.9844
+ep  23 training loss:  0.0890156523932184
+valid loss  0.07589438964128495  and accuracy  0.9868
+ep  24 training loss:  0.087572707464196
+valid loss  0.06724590011835098  and accuracy  0.9916
+ep  25 training loss:  0.08758268666955492
+valid loss  0.06674357492923737  and accuracy  0.9924
+ep  26 training loss:  0.08814825209393881
+valid loss  0.07234454432725906  and accuracy  0.9908
+ep  27 training loss:  0.08657548717427418
+valid loss  0.06659202584028244  and accuracy  0.9896
+ep  28 training loss:  0.08845945778877932
+valid loss  0.06810868495702743  and accuracy  0.99
+ep  29 training loss:  0.08840940441973529
+valid loss  0.0670675709605217  and accuracy  0.9912
+ep  30 training loss:  0.08668140025911211
+valid loss  0.07471200072765351  and accuracy  0.9896
+ep  31 training loss:  0.08629187660423084
+valid loss  0.0670246014714241  and accuracy  0.9896
+ep  32 training loss:  0.08725768394869783
+valid loss  0.06772579251527787  and accuracy  0.9916
+ep  33 training loss:  0.0873186682828055
+valid loss  0.07125406738519668  and accuracy  0.992
+ep  34 training loss:  0.08717760587532507
+valid loss  0.06784799603223801  and accuracy  0.9924
+ep  35 training loss:  0.08713809139583219
+valid loss  0.0848266179561615  and accuracy  0.9848
+ep  36 training loss:  0.0861327828273396
+valid loss  0.06195807334184646  and accuracy  0.9912
+ep  37 training loss:  0.0861186475216231
+valid loss  0.062466521787643434  and accuracy  0.9916
+ep  38 training loss:  0.08713716206138039
+valid loss  0.06903476783633232  and accuracy  0.9872
+ep  39 training loss:  0.08609013988437679
+valid loss  0.07428616048097611  and accuracy  0.9908
+ep  40 training loss:  0.08721159528923784
+valid loss  0.06743161474466323  and accuracy  0.9924
+ep  41 training loss:  0.08748235486367031
+valid loss  0.06876577310562133  and accuracy  0.99
+ep  42 training loss:  0.08703651480868248
+valid loss  0.07562903586626053  and accuracy  0.9848
+ep  43 training loss:  0.08771455874215693
+valid loss  0.07175394289493561  and accuracy  0.988
+ep  44 training loss:  0.08714110016533755
+valid loss  0.07018841154575348  and accuracy  0.9884
+ep  45 training loss:  0.08793705558688975
+valid loss  0.07080547759532929  and accuracy  0.992
+ep  46 training loss:  0.0872150059976208
+valid loss  0.07457085095643998  and accuracy  0.9864
+ep  47 training loss:  0.08525546465579169
+valid loss  0.0725728734612465  and accuracy  0.9856
+ep  48 training loss:  0.08726359247029992
+valid loss  0.07545793199539184  and accuracy  0.988
+ep  49 training loss:  0.08612817683372646
+valid loss  0.06797456732988358  and accuracy  0.9896
+ep  50 training loss:  0.0872345359342304
+valid loss  0.06570102138519288  and accuracy  0.9916
+ep  51 training loss:  0.08543835769567426
+valid loss  0.071212173640728  and accuracy  0.9872
+ep  52 training loss:  0.08787214577051837
+valid loss  0.08196621282100677  and accuracy  0.9884
+ep  53 training loss:  0.08661590127643559
+valid loss  0.06736913682818413  and accuracy  0.9912
+ep  54 training loss:  0.08639183295247727
+valid loss  0.06701898300647735  and accuracy  0.9908
+ep  55 training loss:  0.08816245467229918
+valid loss  0.06351810958385468  and accuracy  0.9912
+ep  56 training loss:  0.08641345702096562
+valid loss  0.0784734670639038  and accuracy  0.9852
+ep  57 training loss:  0.08642155464250921
+valid loss  0.06378792808651924  and accuracy  0.9884
+ep  58 training loss:  0.08592814772261262
+valid loss  0.07165867735743522  and accuracy  0.9912
+ep  59 training loss:  0.08596789486439001
+valid loss  0.07296105880737305  and accuracy  0.9908
+ep  60 training loss:  0.08690405936012592
+valid loss  0.06826866726875305  and accuracy  0.9892
+ep  61 training loss:  0.08765095121849739
+valid loss  0.08481250261068345  and accuracy  0.9892
+ep  62 training loss:  0.08760419624841692
+valid loss  0.08625647058486939  and accuracy  0.9852
+ep  63 training loss:  0.08642952055101985
+valid loss  0.06275069640278816  and accuracy  0.9904
+ep  64 training loss:  0.08641985915832792
+valid loss  0.07779387913942337  and accuracy  0.988
+ep  65 training loss:  0.08851471757698745
+valid loss  0.0639240838944912  and accuracy  0.9908
+ep  66 training loss:  0.0853327233452818
+valid loss  0.06961093438863754  and accuracy  0.9896
+ep  67 training loss:  0.08582136177398504
+valid loss  0.07036614627838135  and accuracy  0.9904
+ep  68 training loss:  0.08664418864861198
+valid loss  0.06184377664327621  and accuracy  0.992
+ep  69 training loss:  0.08770477852434375
+valid loss  0.07823046884536743  and accuracy  0.9896
+ep  70 training loss:  0.08556787892081719
+valid loss  0.06886197038888932  and accuracy  0.9888
+ep  71 training loss:  0.08452775985220144
+valid loss  0.05874054156541824  and accuracy  0.9908
+ep  72 training loss:  0.08688400113937125
+valid loss  0.06588402653932571  and accuracy  0.9912
+ep  73 training loss:  0.08442887341648647
+valid loss  0.06732162747383118  and accuracy  0.99
+ep  74 training loss:  0.08572811165929867
+valid loss  0.06806569082736968  and accuracy  0.9896
+ep  75 training loss:  0.08788450111697664
+valid loss  0.06096300226449967  and accuracy  0.992
+ep  76 training loss:  0.08649230804731989
+valid loss  0.0687690962433815  and accuracy  0.9888
+ep  77 training loss:  0.0865259315359519
+valid loss  0.061277913534641265  and accuracy  0.9924
+ep  78 training loss:  0.08701228499229798
+valid loss  0.06641488398313522  and accuracy  0.9916
+ep  79 training loss:  0.08736717522994887
+valid loss  0.0649886574268341  and accuracy  0.9916
+ep  80 training loss:  0.08755252647883
+valid loss  0.07747990268468857  and accuracy  0.99
+ep  81 training loss:  0.08748447590186553
+valid loss  0.06381011764407157  and accuracy  0.9916
+ep  82 training loss:  0.08419683715716636
+valid loss  0.06327699410915374  and accuracy  0.9904
+ep  83 training loss:  0.08814618412807383
+valid loss  0.07312188321948052  and accuracy  0.9904
+ep  84 training loss:  0.08590671616085477
+valid loss  0.06263542636036873  and accuracy  0.992
+ep  85 training loss:  0.08610798580329412
+valid loss  0.060854706335067746  and accuracy  0.9916
+ep  86 training loss:  0.08748747579936761
+valid loss  0.06526432108879089  and accuracy  0.9896
+ep  87 training loss:  0.08583535609720688
+valid loss  0.07039962253570557  and accuracy  0.9896
+ep  88 training loss:  0.08726499401735434
+valid loss  0.07381198004484177  and accuracy  0.9868
+ep  89 training loss:  0.08789684460654786
+valid loss  0.06657982467412948  and accuracy  0.9876
+ep  90 training loss:  0.08897623941358368
+valid loss  0.06813699201345444  and accuracy  0.9884
+ep  91 training loss:  0.08682947811035711
+valid loss  0.07098644758462906  and accuracy  0.9904
+ep  92 training loss:  0.08680876262728734
+valid loss  0.06847548512220383  and accuracy  0.9928
+ep  93 training loss:  0.08662331516148504
+valid loss  0.08356148089170456  and accuracy  0.9844
+ep  94 training loss:  0.08793871420025975
+valid loss  0.06998566673994064  and accuracy  0.9916
+ep  95 training loss:  0.08724456015310711
+valid loss  0.08914704447984695  and accuracy  0.9848
+ep  96 training loss:  0.0868310298231896
+valid loss  0.06778150335550308  and accuracy  0.9892
+ep  97 training loss:  0.08704793917167253
+valid loss  0.06270446146726608  and accuracy  0.9932
+ep  98 training loss:  0.08828847608340451
+valid loss  0.10054931128025055  and accuracy  0.9888
+ep  99 training loss:  0.08593786481991438
+valid loss  0.07567158019542694  and accuracy  0.9876
+ep  100 training loss:  0.08847285754698941
+valid loss  0.07088574398756027  and accuracy  0.9884
+ep  101 training loss:  0.08835304440822139
+valid loss  0.06921408321857453  and accuracy  0.9904
+ep  102 training loss:  0.0860921579318294
+valid loss  0.07041769867539406  and accuracy  0.99
+ep  103 training loss:  0.08805896301016554
+valid loss  0.07082172327041626  and accuracy  0.9904
+ep  104 training loss:  0.0879081013496446
+valid loss  0.06329622337222099  and accuracy  0.9908
+ep  105 training loss:  0.08771102296519118
+valid loss  0.06206570714712143  and accuracy  0.9912
+ep  106 training loss:  0.08578697935030404
+valid loss  0.06955915582180024  and accuracy  0.9908
+ep  107 training loss:  0.08634473416008291
+valid loss  0.05952763300538063  and accuracy  0.9928
+ep  108 training loss:  0.08761070483465944
+valid loss  0.0773799755692482  and accuracy  0.99
+ep  109 training loss:  0.08742300233670762
+valid loss  0.061656249380111695  and accuracy  0.9924
+ep  110 training loss:  0.08674468144447582
+valid loss  0.07314807287454606  and accuracy  0.9888
+ep  111 training loss:  0.08634216941208035
+valid loss  0.06254215627908706  and accuracy  0.9932
+ep  112 training loss:  0.08695143162365253
+valid loss  0.06980980846881867  and accuracy  0.9872
+ep  113 training loss:  0.08837024767837774
+valid loss  0.06953252490758896  and accuracy  0.9928
+ep  114 training loss:  0.08619235699241046
+valid loss  0.06917792217731476  and accuracy  0.9876
+ep  115 training loss:  0.08732601618165571
+valid loss  0.06562083129882812  and accuracy  0.9888
+ep  116 training loss:  0.08621976120280277
+valid loss  0.07239476261138916  and accuracy  0.9904
+ep  117 training loss:  0.08736895502017306
+valid loss  0.06487729078531265  and accuracy  0.9904
+ep  118 training loss:  0.08693163482360529
+valid loss  0.06973501319885254  and accuracy  0.9908
+ep  119 training loss:  0.08829668527302653
+valid loss  0.06431169401407241  and accuracy  0.9888
+ep  120 training loss:  0.08766407995677658
+valid loss  0.06770479524135589  and accuracy  0.9912
+ep  121 training loss:  0.08902123640173935
+valid loss  0.0739400005698204  and accuracy  0.9876
+ep  122 training loss:  0.08547850157905142
+valid loss  0.06874231457710266  and accuracy  0.99
+ep  123 training loss:  0.08675448576334631
+valid loss  0.0766556498169899  and accuracy  0.9924
+ep  124 training loss:  0.08695422433898775
+valid loss  0.07659713073968888  and accuracy  0.9856
+ep  125 training loss:  0.08668174656875995
+valid loss  0.06118087927103043  and accuracy  0.9896
+ep  126 training loss:  0.08689960137118849
+valid loss  0.0635858549952507  and accuracy  0.9904
+ep  127 training loss:  0.08748476008194844
+valid loss  0.07001015191078186  and accuracy  0.9888
+ep  128 training loss:  0.089243616130173
+valid loss  0.07036377427577972  and accuracy  0.9916
+ep  129 training loss:  0.08566429948981362
+valid loss  0.08217640092372894  and accuracy  0.984
+ep  130 training loss:  0.0856966941667449
+valid loss  0.06739723541736603  and accuracy  0.9908
+ep  131 training loss:  0.0887864171011684
+valid loss  0.06179784370660782  and accuracy  0.9928
+ep  132 training loss:  0.08547267356894779
+valid loss  0.06194411976337433  and accuracy  0.992
+ep  133 training loss:  0.08820273530795897
+valid loss  0.07230944126844406  and accuracy  0.9892
+ep  134 training loss:  0.08642232920926213
+valid loss  0.08128535732030868  and accuracy  0.984
+ep  135 training loss:  0.0862852841297544
+valid loss  0.06266915463805199  and accuracy  0.99
+ep  136 training loss:  0.089069604598302
+valid loss  0.07562512172460556  and accuracy  0.9876
+ep  137 training loss:  0.08741312569826024
+valid loss  0.06748539153933525  and accuracy  0.99
+ep  138 training loss:  0.0863637470291194
+valid loss  0.06389118618965149  and accuracy  0.99
+ep  139 training loss:  0.08720784444032682
+valid loss  0.06187004784345627  and accuracy  0.9912
+ep  140 training loss:  0.0856694275025138
+valid loss  0.06512539854049683  and accuracy  0.9924
+ep  141 training loss:  0.0876054466684419
+valid loss  0.07061887261867524  and accuracy  0.9912
+ep  142 training loss:  0.08818984166862953
+valid loss  0.06616323189139366  and accuracy  0.99
+ep  143 training loss:  0.08876275303177472
+valid loss  0.07137419867515564  and accuracy  0.9912
+ep  144 training loss:  0.08845142306991337
+valid loss  0.06933930391073227  and accuracy  0.9912
+ep  145 training loss:  0.0856509800589089
+valid loss  0.07706668043136597  and accuracy  0.9896
+ep  146 training loss:  0.08694020083496551
+valid loss  0.06704747765660286  and accuracy  0.9904
+ep  147 training loss:  0.08873989106050259
+valid loss  0.07059200171232223  and accuracy  0.9876
+ep  148 training loss:  0.08637588179974676
+valid loss  0.07641829616427422  and accuracy  0.9908
+ep  149 training loss:  0.08737848466619134
+valid loss  0.09940580592155457  and accuracy  0.9832
+ep  150 training loss:  0.08577303263321678
+valid loss  0.09393715153932572  and accuracy  0.9844
+ep  151 training loss:  0.08783910358873125
+valid loss  0.07060265734791756  and accuracy  0.992
+ep  152 training loss:  0.08694826936624783
+valid loss  0.06527114269137382  and accuracy  0.9928
+ep  153 training loss:  0.08860692958298154
+valid loss  0.0667674816608429  and accuracy  0.9888
+ep  154 training loss:  0.08703868345384291
+valid loss  0.05867522366642952  and accuracy  0.992
+ep  155 training loss:  0.08667026933881397
+valid loss  0.0638733775138855  and accuracy  0.9924
+ep  156 training loss:  0.08784622118637452
+valid loss  0.07279052449464798  and accuracy  0.9912
+ep  157 training loss:  0.08659065212306744
+valid loss  0.07262654478549957  and accuracy  0.9852
+ep  158 training loss:  0.0875451008870306
+valid loss  0.07298644382953644  and accuracy  0.992
+ep  159 training loss:  0.08717386474379522
+valid loss  0.07229509488344192  and accuracy  0.99
+ep  160 training loss:  0.08798874304836093
+valid loss  0.06187724841237068  and accuracy  0.9924
+ep  161 training loss:  0.08762479476823187
+valid loss  0.06648986679315567  and accuracy  0.9912
+ep  162 training loss:  0.08871772170894145
+valid loss  0.06769374548792839  and accuracy  0.992
+ep  163 training loss:  0.08812447930948734
+valid loss  0.07117511632442475  and accuracy  0.9884
+ep  164 training loss:  0.08646928960721015
+valid loss  0.06565946106910706  and accuracy  0.99
+ep  165 training loss:  0.086634360582742
+valid loss  0.06557007461190224  and accuracy  0.992
+ep  166 training loss:  0.08719131261680951
+valid loss  0.07460533371567726  and accuracy  0.9872
+ep  167 training loss:  0.08889591849788202
+valid loss  0.07698254392147064  and accuracy  0.9916
+ep  168 training loss:  0.08699773145772238
+valid loss  0.07753429580926895  and accuracy  0.9904
+ep  169 training loss:  0.08609310696144733
+valid loss  0.08226196188926697  and accuracy  0.9904
+ep  170 training loss:  0.08641775972773015
+valid loss  0.08735187726020813  and accuracy  0.9896
+ep  171 training loss:  0.08656774392077554
+valid loss  0.06644430453777313  and accuracy  0.9908
+ep  172 training loss:  0.08550854837118793
+valid loss  0.06490856062173843  and accuracy  0.9904
+ep  173 training loss:  0.08701044258066964
+valid loss  0.08070027283430099  and accuracy  0.9872
+ep  174 training loss:  0.08638045915558658
+valid loss  0.0701708882689476  and accuracy  0.99
+ep  175 training loss:  0.08688982829433703
+valid loss  0.07138647183179855  and accuracy  0.9912
+ep  176 training loss:  0.08735247958736936
+valid loss  0.08460904378890992  and accuracy  0.9912
+ep  177 training loss:  0.08874276549860853
+valid loss  0.07715219046473504  and accuracy  0.99
+ep  178 training loss:  0.08694931567288378
+valid loss  0.0669215122461319  and accuracy  0.9884
+ep  179 training loss:  0.08798464435281743
+valid loss  0.05955654938220978  and accuracy  0.9928
+ep  180 training loss:  0.08731948426373079
+valid loss  0.06866694254875183  and accuracy  0.9896
+ep  181 training loss:  0.08828114498184558
+valid loss  0.06661994230747223  and accuracy  0.9924
+ep  182 training loss:  0.0861929631518289
+valid loss  0.07967360008955002  and accuracy  0.9852
+ep  183 training loss:  0.08694142835399186
+valid loss  0.06287251949906349  and accuracy  0.992
+ep  184 training loss:  0.08762418546860107
+valid loss  0.0811947782754898  and accuracy  0.9888
+ep  185 training loss:  0.0874887306375356
+valid loss  0.06877241629362106  and accuracy  0.9876
+ep  186 training loss:  0.08746970077943515
+valid loss  0.0673105448961258  and accuracy  0.9888
+ep  187 training loss:  0.08594637978870273
+valid loss  0.062436625850200655  and accuracy  0.9916
+ep  188 training loss:  0.08703858186438011
+valid loss  0.06427730648517609  and accuracy  0.9924
+ep  189 training loss:  0.08655200354249691
+valid loss  0.0686603420495987  and accuracy  0.9904
+ep  190 training loss:  0.08863597145856611
+valid loss  0.07525630676746368  and accuracy  0.9896
+ep  191 training loss:  0.08658486950753501
+valid loss  0.07269010491967201  and accuracy  0.9908
+ep  192 training loss:  0.08966676412051781
+valid loss  0.10080562623143197  and accuracy  0.9912
+ep  193 training loss:  0.08735489908902454
+valid loss  0.07865001851320266  and accuracy  0.9892
+ep  194 training loss:  0.08659816877936442
+valid loss  0.06892012452483177  and accuracy  0.9876
+ep  195 training loss:  0.08772858881192674
+valid loss  0.06748274530768394  and accuracy  0.9916
+ep  196 training loss:  0.08644665814096182
+valid loss  0.062498265099525455  and accuracy  0.9908
+ep  197 training loss:  0.08726618854172363
+valid loss  0.06926170213222503  and accuracy  0.9868
+ep  198 training loss:  0.09119309546757828
+valid loss  0.0689890854716301  and accuracy  0.9908
+ep  199 training loss:  0.08847634968222967
+valid loss  0.0670941622197628  and accuracy  0.9908
+ep  200 training loss:  0.08866485412588167
+valid loss  0.06398000722527504  and accuracy  0.9912
+ep  201 training loss:  0.08681175819760086
+valid loss  0.06285552588701249  and accuracy  0.99
+ep  202 training loss:  0.08704091664903615
+valid loss  0.07814566103816033  and accuracy  0.9888
+ep  203 training loss:  0.08807593734571575
+valid loss  0.07012327902317048  and accuracy  0.99
+ep  204 training loss:  0.08703815854809456
+valid loss  0.07581040350198746  and accuracy  0.9892
+ep  205 training loss:  0.08794812389159817
+valid loss  0.063985005569458  and accuracy  0.9908
+ep  206 training loss:  0.0860546427905857
+valid loss  0.07585705120563507  and accuracy  0.986
+ep  207 training loss:  0.08703139979893681
+valid loss  0.06959530757665634  and accuracy  0.9916
+ep  208 training loss:  0.08578517768802928
+valid loss  0.07454296921491622  and accuracy  0.9896
+ep  209 training loss:  0.08850002299803496
+valid loss  0.06230348196029663  and accuracy  0.9912
+ep  210 training loss:  0.08720628486284261
+valid loss  0.07989943592548371  and accuracy  0.988
+ep  211 training loss:  0.0868605620011348
+valid loss  0.07092513384819031  and accuracy  0.9896
+ep  212 training loss:  0.08742499669426683
+valid loss  0.06526727385520935  and accuracy  0.9888
+ep  213 training loss:  0.08827001740775707
+valid loss  0.07323271448612213  and accuracy  0.9892
+ep  214 training loss:  0.08789602429407317
+valid loss  0.0600479945063591  and accuracy  0.9908
+ep  215 training loss:  0.0879344347019323
+valid loss  0.09507846816778183  and accuracy  0.9892
+ep  216 training loss:  0.08800585460882461
+valid loss  0.06385938197374344  and accuracy  0.992
+ep  217 training loss:  0.08834545945926182
+valid loss  0.0596313127040863  and accuracy  0.9936
+ep  218 training loss:  0.08713090828524349
+valid loss  0.0659324295759201  and accuracy  0.9896
+ep  219 training loss:  0.08931122875487067
+valid loss  0.07136841776371002  and accuracy  0.9888
+ep  220 training loss:  0.08733239839573897
+valid loss  0.0640004559636116  and accuracy  0.99
+ep  221 training loss:  0.0872377463675847
+valid loss  0.07692814724445343  and accuracy  0.9888
+ep  222 training loss:  0.08762551839779963
+valid loss  0.06833447968363762  and accuracy  0.9884
+ep  223 training loss:  0.0886801985564391
+valid loss  0.0723044505596161  and accuracy  0.9876
+ep  224 training loss:  0.08715672115823218
+valid loss  0.07057029725313187  and accuracy  0.9876
+ep  225 training loss:  0.08612408038722874
+valid loss  0.07805753331184387  and accuracy  0.9864
+ep  226 training loss:  0.08932621711146828
+valid loss  0.0647013702750206  and accuracy  0.9892
+ep  227 training loss:  0.08751089409927769
+valid loss  0.0744911886692047  and accuracy  0.9888
+ep  228 training loss:  0.08818382831933742
+valid loss  0.07551299333572388  and accuracy  0.9868
+ep  229 training loss:  0.08795573141397503
+valid loss  0.0646544730067253  and accuracy  0.9908
+ep  230 training loss:  0.08769449098946017
+valid loss  0.06229843789339066  and accuracy  0.9908
+ep  231 training loss:  0.08762846486455285
+valid loss  0.09102993347644805  and accuracy  0.9876
+ep  232 training loss:  0.08804056354253506
+valid loss  0.06891515473127365  and accuracy  0.9916
+ep  233 training loss:  0.08686753006220535
+valid loss  0.0683129083096981  and accuracy  0.9912
+ep  234 training loss:  0.08793008423214715
+valid loss  0.0963848652601242  and accuracy  0.9836
+ep  235 training loss:  0.08600557067664943
+valid loss  0.08332476781606674  and accuracy  0.986
+ep  236 training loss:  0.08866808542663455
+valid loss  0.06387172378897667  and accuracy  0.9908
+ep  237 training loss:  0.08629455330884092
+valid loss  0.06506752194166184  and accuracy  0.9896
+ep  238 training loss:  0.08807885201184851
+valid loss  0.10717970700263978  and accuracy  0.9868
+ep  239 training loss:  0.08886504544156953
+valid loss  0.07067497724294662  and accuracy  0.9904
+ep  240 training loss:  0.08788432795924551
+valid loss  0.08290486657619477  and accuracy  0.9892
+ep  241 training loss:  0.08705867561135704
+valid loss  0.0682909899353981  and accuracy  0.9888
+ep  242 training loss:  0.08857679686174301
+valid loss  0.0719685655117035  and accuracy  0.9872
+ep  243 training loss:  0.08878136608970681
+valid loss  0.07780475058555603  and accuracy  0.9896
+ep  244 training loss:  0.08910052589535358
+valid loss  0.08022042908668518  and accuracy  0.9896
+ep  245 training loss:  0.0875036028409543
+valid loss  0.06798152956962586  and accuracy  0.9892
+ep  246 training loss:  0.08683489843774804
+valid loss  0.06870717383027077  and accuracy  0.992
+ep  247 training loss:  0.08682961209849697
+valid loss  0.06234847769737244  and accuracy  0.9912
+ep  248 training loss:  0.08683047972659197
+valid loss  0.06870897550582886  and accuracy  0.9904
+ep  249 training loss:  0.08696738277492942
+valid loss  0.06949346623420716  and accuracy  0.9904
+ep  250 training loss:  0.08628158669850976
+valid loss  0.06356089131832122  and accuracy  0.992
+ep  251 training loss:  0.08670539887637417
+valid loss  0.07937061854600906  and accuracy  0.9852
+ep  252 training loss:  0.08728358762578033
+valid loss  0.06995539363622666  and accuracy  0.9896
+ep  253 training loss:  0.08832034832987719
+valid loss  0.07764779571294785  and accuracy  0.986
+ep  254 training loss:  0.0871862430909282
+valid loss  0.06997980905771256  and accuracy  0.9884
+ep  255 training loss:  0.08912531048522127
+valid loss  0.06735041683912277  and accuracy  0.9904
+ep  256 training loss:  0.08893802063260584
+valid loss  0.07098270213603973  and accuracy  0.9912
+ep  257 training loss:  0.0877445235588023
+valid loss  0.09509980509281159  and accuracy  0.9848
+ep  258 training loss:  0.08913093040984339
+valid loss  0.06248189600706101  and accuracy  0.9904
+ep  259 training loss:  0.08793103632327488
+valid loss  0.07896394686698914  and accuracy  0.9924
+ep  260 training loss:  0.08854816473133571
+valid loss  0.06160637935400009  and accuracy  0.9924
+ep  261 training loss:  0.08908690809630415
+valid loss  0.0808863985657692  and accuracy  0.9868
+ep  262 training loss:  0.08851824358590335
+valid loss  0.06779026161432267  and accuracy  0.9876
+ep  263 training loss:  0.08681298447129898
+valid loss  0.0705826076388359  and accuracy  0.9896
+ep  264 training loss:  0.08713762125005498
+valid loss  0.08228849841356277  and accuracy  0.9896
+ep  265 training loss:  0.08818864965609788
+valid loss  0.06951629902124405  and accuracy  0.9892
+ep  266 training loss:  0.08616428888459751
+valid loss  0.06121444730758667  and accuracy  0.9928
+ep  267 training loss:  0.08869116940564703
+valid loss  0.07100505253076553  and accuracy  0.99
+ep  268 training loss:  0.08833824514091777
+valid loss  0.07296931170225143  and accuracy  0.9884
+ep  269 training loss:  0.08734225338194235
+valid loss  0.05974004371166229  and accuracy  0.9904
+ep  270 training loss:  0.08736836568940233
+valid loss  0.06614127895832062  and accuracy  0.9936
+ep  271 training loss:  0.08807632107958487
+valid loss  0.082170445394516  and accuracy  0.9876
+ep  272 training loss:  0.08864138576842799
+valid loss  0.06639102799892425  and accuracy  0.9892
+ep  273 training loss:  0.0901088105375151
+valid loss  0.060137484359741214  and accuracy  0.9924
+ep  274 training loss:  0.08787151068281232
+valid loss  0.06289736206531525  and accuracy  0.9892
+ep  275 training loss:  0.08823713688024885
+valid loss  0.06506385644674301  and accuracy  0.9932
+ep  276 training loss:  0.08748531044081882
+valid loss  0.05969588447213173  and accuracy  0.9924
+ep  277 training loss:  0.08807663075369854
+valid loss  0.07179280989170074  and accuracy  0.9856
+ep  278 training loss:  0.08895420441771801
+valid loss  0.07116724926829338  and accuracy  0.986
+ep  279 training loss:  0.08655275030460255
+valid loss  0.06382280720472336  and accuracy  0.9908
+ep  280 training loss:  0.08809777069621409
+valid loss  0.07233248696327209  and accuracy  0.9872
+ep  281 training loss:  0.08821424193861573
+valid loss  0.07173802151679992  and accuracy  0.9916
+ep  282 training loss:  0.08770775523303248
+valid loss  0.07107864700555801  and accuracy  0.9892
+ep  283 training loss:  0.08718186233435331
+valid loss  0.07153868702650071  and accuracy  0.9904
+ep  284 training loss:  0.08771903698859983
+valid loss  0.0656531025648117  and accuracy  0.9908
+ep  285 training loss:  0.0882701357868278
+valid loss  0.0589509704053402  and accuracy  0.9928
+ep  286 training loss:  0.08872578181676294
+valid loss  0.06033861075043678  and accuracy  0.9908
+ep  287 training loss:  0.0862986793695224
+valid loss  0.06306433889269829  and accuracy  0.992
+ep  288 training loss:  0.08766338364551982
+valid loss  0.09143140534162521  and accuracy  0.986
+ep  289 training loss:  0.08928655762692725
+valid loss  0.07000188373327255  and accuracy  0.99
+ep  290 training loss:  0.08978262696951049
+valid loss  0.06405811513662338  and accuracy  0.9924
+ep  291 training loss:  0.08802942205989317
+valid loss  0.05938352738022804  and accuracy  0.9916
+ep  292 training loss:  0.08571584213645188
+valid loss  0.07517998032569885  and accuracy  0.9884
+ep  293 training loss:  0.0888730284866855
+valid loss  0.06413383091092109  and accuracy  0.9928
+ep  294 training loss:  0.08975116116499077
+valid loss  0.09194608290195465  and accuracy  0.9916
+ep  295 training loss:  0.08800990627562807
+valid loss  0.0721343405008316  and accuracy  0.9908
+ep  296 training loss:  0.08900945080136
+valid loss  0.0811132220864296  and accuracy  0.9864
+ep  297 training loss:  0.0874435753085006
+valid loss  0.06425662628412247  and accuracy  0.9896
+ep  298 training loss:  0.0873275687990488
+valid loss  0.06283878635168076  and accuracy  0.99
+ep  299 training loss:  0.08875701459580339
+valid loss  0.07109358177185059  and accuracy  0.9892
+
+time: 4 min, 56 sec
+
+[[26522    21    38     5     0]
+ [   39  6833   146     8     0]
+ [   56   132 38239    57     0]
+ [   25    41   450  1577     0]
+ [    0    11    11    47     0]]
+
+True positive:  [26522  6833 38239  1577     0]
+True negative:  [47552 67027 35129 72048 74189]
+False positive:  [120 205 645 117   0]
+False negative:  [ 64 193 245 516  69]
+True positive rate:  [0.99759272 0.9725306  0.99363372 0.75346393 0.        ]
+True negative rate:  [0.9974828  0.99695086 0.98197015 0.99837872 1.        ]
+False positive rate:  [0.0025172  0.00304914 0.01802985 0.00162128 0.        ]
+False negative rate:  [0.00240728 0.0274694  0.00636628 0.24653607 1.
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     26586
+           1       0.97      0.97      0.97      7026
+           2       0.98      0.99      0.99     38484
+           3       0.93      0.75      0.83      2093
+           4       0.00      0.00      0.00        69
+
+    accuracy                           0.99     74258
+   macro avg       0.78      0.74      0.76     74258
+weighted avg       0.98      0.99      0.98     74258
+
+Accuracy:  0.9853618465350534
+Precision_weighted:  0.9841590001486248
+Recall_weighted:  0.9853618465350534
+mcc:  0.9752746378148577
+f2:  0.9851210420948158
+
+- train_loop(model, epochs=500, lr=0.001, wd=0.002)
+
+time = 8 min, 11 sec
+
+ep  0 training loss:  0.3509288188815034
+valid loss  0.1141541720867157  and accuracy  0.9656
+ep  1 training loss:  0.10777016501668046
+valid loss  0.06726433721780777  and accuracy  0.9784
+ep  2 training loss:  0.07812237313655332
+valid loss  0.05598678565621376  and accuracy  0.9804
+ep  3 training loss:  0.06272547082011608
+valid loss  0.06337571187615394  and accuracy  0.9864
+ep  4 training loss:  0.054448839710100914
+valid loss  0.05552811758518219  and accuracy  0.9908
+ep  5 training loss:  0.05017270808876202
+valid loss  0.03523318614959717  and accuracy  0.9928
+ep  6 training loss:  0.045880192583584396
+valid loss  0.03574569497704506  and accuracy  0.9892
+ep  7 training loss:  0.043398673253391855
+valid loss  0.03127266548871994  and accuracy  0.99
+ep  8 training loss:  0.042903887095145414
+valid loss  0.03444221029877663  and accuracy  0.9884
+ep  9 training loss:  0.040490738830835635
+valid loss  0.03441407506465912  and accuracy  0.9924
+ep  10 training loss:  0.03882005995024177
+valid loss  0.02778596634119749  and accuracy  0.9928
+ep  11 training loss:  0.03794303482984559
+valid loss  0.028274715703725816  and accuracy  0.9932
+ep  12 training loss:  0.03685814308540894
+valid loss  0.033241611224412916  and accuracy  0.988
+ep  13 training loss:  0.03646663291695814
+valid loss  0.03373631134927273  and accuracy  0.992
+ep  14 training loss:  0.03672433328103081
+valid loss  0.04153847774863243  and accuracy  0.9884
+ep  15 training loss:  0.03543424891209987
+valid loss  0.02872246699333191  and accuracy  0.9916
+ep  16 training loss:  0.035983168218850614
+valid loss  0.036709365847706794  and accuracy  0.988
+ep  17 training loss:  0.033165631327741654
+valid loss  0.05490748977661133  and accuracy  0.994
+ep  18 training loss:  0.03307641728428741
+valid loss  0.029464986246824264  and accuracy  0.9924
+ep  19 training loss:  0.03322750420614264
+valid loss  0.037093925297260286  and accuracy  0.9928
+ep  20 training loss:  0.03341056556884267
+valid loss  0.02716004920899868  and accuracy  0.9928
+ep  21 training loss:  0.033424064693375194
+valid loss  0.025721394461393356  and accuracy  0.9924
+ep  22 training loss:  0.03431526253150922
+valid loss  0.028730976833403112  and accuracy  0.9916
+ep  23 training loss:  0.034224667287176214
+valid loss  0.023565359571576117  and accuracy  0.9932
+ep  24 training loss:  0.03117991194037932
+valid loss  0.027122472327947615  and accuracy  0.99
+ep  25 training loss:  0.03207377550626729
+valid loss  0.024044058841466903  and accuracy  0.9944
+ep  26 training loss:  0.03236461453059418
+valid loss  0.027699785733222963  and accuracy  0.9932
+ep  27 training loss:  0.032741778818955604
+valid loss  0.03222401576340198  and accuracy  0.9936
+ep  28 training loss:  0.03229894321002241
+valid loss  0.02919553677737713  and accuracy  0.9932
+ep  29 training loss:  0.03311951720560736
+valid loss  0.02790176251530647  and accuracy  0.9932
+ep  30 training loss:  0.03187632775739628
+valid loss  0.025451631098985673  and accuracy  0.9928
+ep  31 training loss:  0.032003209250493075
+valid loss  0.03625461484193802  and accuracy  0.9932
+ep  32 training loss:  0.03132299348294989
+valid loss  0.025796550658345224  and accuracy  0.9936
+ep  33 training loss:  0.03155676289903217
+valid loss  0.04083468005657196  and accuracy  0.9924
+ep  34 training loss:  0.03306591064052472
+valid loss  0.02200231614410877  and accuracy  0.9936
+ep  35 training loss:  0.03164735538856704
+valid loss  0.02472108807861805  and accuracy  0.9936
+ep  36 training loss:  0.031038765435578774
+valid loss  0.049838562843203545  and accuracy  0.9928
+ep  37 training loss:  0.03039935716797521
+valid loss  0.029388446280360223  and accuracy  0.9924
+ep  38 training loss:  0.03124933805223344
+valid loss  0.024575181171298026  and accuracy  0.9944
+ep  39 training loss:  0.030676256714113528
+valid loss  0.06692460188865662  and accuracy  0.992
+ep  40 training loss:  0.031138822825900116
+valid loss  0.02256893921792507  and accuracy  0.9944
+ep  41 training loss:  0.029395952379088187
+valid loss  0.023893923965096472  and accuracy  0.9936
+ep  42 training loss:  0.03060430423770482
+valid loss  0.023846613539755344  and accuracy  0.9924
+ep  43 training loss:  0.03231667638849911
+valid loss  0.04832405853271484  and accuracy  0.9912
+ep  44 training loss:  0.030585453276186805
+valid loss  0.035821790128946304  and accuracy  0.9924
+ep  45 training loss:  0.03144190809395495
+valid loss  0.035123484948277474  and accuracy  0.9924
+ep  46 training loss:  0.02946168682235181
+valid loss  0.022545662099123003  and accuracy  0.9936
+ep  47 training loss:  0.029828936507820886
+valid loss  0.0245838847219944  and accuracy  0.9936
+ep  48 training loss:  0.03328921604145571
+valid loss  0.024991231353580952  and accuracy  0.9924
+ep  49 training loss:  0.03012423591165028
+valid loss  0.05321363974511623  and accuracy  0.9924
+ep  50 training loss:  0.030578616106444377
+valid loss  0.021888460044562817  and accuracy  0.9944
+ep  51 training loss:  0.02949803576333131
+valid loss  0.03156268167495727  and accuracy  0.9916
+ep  52 training loss:  0.03020764863218569
+valid loss  0.027083278107643126  and accuracy  0.9932
+ep  53 training loss:  0.029088769524723872
+valid loss  0.021256505864858628  and accuracy  0.9944
+ep  54 training loss:  0.029665320869756883
+valid loss  0.04581564874053001  and accuracy  0.9924
+ep  55 training loss:  0.0305153547520555
+valid loss  0.02150199380517006  and accuracy  0.994
+ep  56 training loss:  0.031918404443566556
+valid loss  0.047004347637295725  and accuracy  0.9944
+ep  57 training loss:  0.030428835327445974
+valid loss  0.0642690601348877  and accuracy  0.9944
+ep  58 training loss:  0.030207513410813694
+valid loss  0.059526565635204316  and accuracy  0.9944
+ep  59 training loss:  0.029902756852068866
+valid loss  0.029865702490508555  and accuracy  0.9948
+ep  60 training loss:  0.03002181517282601
+valid loss  0.021607713055610656  and accuracy  0.9948
+ep  61 training loss:  0.030755378748237677
+valid loss  0.027782162088155746  and accuracy  0.99
+ep  62 training loss:  0.031208102686054024
+valid loss  0.028289799251407385  and accuracy  0.9936
+ep  63 training loss:  0.029005347762839653
+valid loss  0.03410228553712368  and accuracy  0.9932
+ep  64 training loss:  0.02996642364700336
+valid loss  0.03236346840262413  and accuracy  0.994
+ep  65 training loss:  0.03046790880110522
+valid loss  0.03874682022333145  and accuracy  0.9936
+ep  66 training loss:  0.030226465645011424
+valid loss  0.021879282020032406  and accuracy  0.9944
+ep  67 training loss:  0.02989575975078275
+valid loss  0.025856618452072145  and accuracy  0.9936
+ep  68 training loss:  0.030171594019133444
+valid loss  0.04145475780665874  and accuracy  0.9932
+ep  69 training loss:  0.028933436494372442
+valid loss  0.028165483617782594  and accuracy  0.9944
+ep  70 training loss:  0.03087605538195603
+valid loss  0.01992617831528187  and accuracy  0.9944
+ep  71 training loss:  0.02905205928789918
+valid loss  0.020742739194631578  and accuracy  0.9944
+ep  72 training loss:  0.03135331381806851
+valid loss  0.03017124031186104  and accuracy  0.9932
+ep  73 training loss:  0.030730237181809353
+valid loss  0.05102101462483406  and accuracy  0.9908
+ep  74 training loss:  0.030587632532386916
+valid loss  0.06942909596860408  and accuracy  0.9928
+ep  75 training loss:  0.030684239605847714
+valid loss  0.02032758705317974  and accuracy  0.9956
+ep  76 training loss:  0.030012647065872974
+valid loss  0.03212055299282074  and accuracy  0.9944
+ep  77 training loss:  0.029755245879501808
+valid loss  0.02200399815738201  and accuracy  0.9944
+ep  78 training loss:  0.029566693424417666
+valid loss  0.025736776119470596  and accuracy  0.9928
+ep  79 training loss:  0.03072356680849031
+valid loss  0.04049980581998825  and accuracy  0.99
+ep  80 training loss:  0.03270977647223
+valid loss  0.024155219888687133  and accuracy  0.9936
+ep  81 training loss:  0.029905318054094267
+valid loss  0.02576063796877861  and accuracy  0.9936
+ep  82 training loss:  0.029440649034130278
+valid loss  0.021469883072376253  and accuracy  0.994
+ep  83 training loss:  0.028446966423118735
+valid loss  0.022446510742604734  and accuracy  0.9936
+ep  84 training loss:  0.030780623122435482
+valid loss  0.025559641915559768  and accuracy  0.9936
+ep  85 training loss:  0.03003196528157501
+valid loss  0.025252300721406936  and accuracy  0.9916
+ep  86 training loss:  0.03058569749498029
+valid loss  0.02344554974883795  and accuracy  0.994
+ep  87 training loss:  0.029429475948299255
+valid loss  0.03124042946100235  and accuracy  0.9932
+ep  88 training loss:  0.029564382945881724
+valid loss  0.02217283434420824  and accuracy  0.9936
+ep  89 training loss:  0.031154693566392923
+valid loss  0.022842779007554055  and accuracy  0.994
+ep  90 training loss:  0.0318493243206057
+valid loss  0.03140882958173752  and accuracy  0.9932
+ep  91 training loss:  0.031783454618228145
+valid loss  0.022847602090239526  and accuracy  0.9936
+ep  92 training loss:  0.030992506757457905
+valid loss  0.023602067142724992  and accuracy  0.9932
+ep  93 training loss:  0.030446233816820528
+valid loss  0.03573128132969141  and accuracy  0.9944
+ep  94 training loss:  0.031319602257480095
+valid loss  0.02612313592135906  and accuracy  0.9928
+ep  95 training loss:  0.02965759447522412
+valid loss  0.05335277299880981  and accuracy  0.992
+ep  96 training loss:  0.030072518184674338
+valid loss  0.024969792744517327  and accuracy  0.994
+ep  97 training loss:  0.03096689931916354
+valid loss  0.03279351896047592  and accuracy  0.99
+ep  98 training loss:  0.02963607052950633
+valid loss  0.024150752165913583  and accuracy  0.994
+ep  99 training loss:  0.03180450317707494
+valid loss  0.026119161713123323  and accuracy  0.9924
+ep  100 training loss:  0.030467967812469555
+valid loss  0.02252488104104996  and accuracy  0.9936
+ep  101 training loss:  0.030119699434742967
+valid loss  0.022479215347766875  and accuracy  0.9944
+ep  102 training loss:  0.028914858662544122
+valid loss  0.031840508787333965  and accuracy  0.9912
+ep  103 training loss:  0.03029127555094308
+valid loss  0.03438463604450226  and accuracy  0.9928
+ep  104 training loss:  0.03085049216278171
+valid loss  0.026382121920585633  and accuracy  0.994
+ep  105 training loss:  0.02959140660529113
+valid loss  0.024342754966020584  and accuracy  0.9912
+ep  106 training loss:  0.028482027612623438
+valid loss  0.020518322157859804  and accuracy  0.9956
+ep  107 training loss:  0.031121044582068887
+valid loss  0.02089567673802376  and accuracy  0.9936
+ep  108 training loss:  0.028527062723356054
+valid loss  0.03734513659477234  and accuracy  0.9932
+ep  109 training loss:  0.03171844505977621
+valid loss  0.03877480449676514  and accuracy  0.9928
+ep  110 training loss:  0.03046472424309465
+valid loss  0.0418861862719059  and accuracy  0.9924
+ep  111 training loss:  0.029369075036090587
+valid loss  0.06540455462038516  and accuracy  0.9912
+ep  112 training loss:  0.028962656461031973
+valid loss  0.020569905459880827  and accuracy  0.9936
+ep  113 training loss:  0.03053881618949614
+valid loss  0.029123739379644395  and accuracy  0.9924
+ep  114 training loss:  0.03176073253753019
+valid loss  0.03526970369815827  and accuracy  0.9928
+ep  115 training loss:  0.030493478820136154
+valid loss  0.04108028905689717  and accuracy  0.994
+ep  116 training loss:  0.03142629791516408
+valid loss  0.024543626552820205  and accuracy  0.9924
+ep  117 training loss:  0.029772951856241826
+valid loss  0.028298402872681618  and accuracy  0.9936
+ep  118 training loss:  0.03008814208021999
+valid loss  0.023929506987333298  and accuracy  0.9924
+ep  119 training loss:  0.02971480572356606
+valid loss  0.02801155003607273  and accuracy  0.9924
+ep  120 training loss:  0.03047092939032676
+valid loss  0.03583393206596375  and accuracy  0.9944
+ep  121 training loss:  0.029894494778462923
+valid loss  0.029191370302438735  and accuracy  0.9916
+ep  122 training loss:  0.030934133443800433
+valid loss  0.046747596833109854  and accuracy  0.992
+ep  123 training loss:  0.030928259450829
+valid loss  0.025968822148442268  and accuracy  0.994
+ep  124 training loss:  0.030945078630358874
+valid loss  0.029663850304484367  and accuracy  0.994
+ep  125 training loss:  0.03072571649722984
+valid loss  0.05742372343540192  and accuracy  0.9952
+ep  126 training loss:  0.03027546284021271
+valid loss  0.03452914254069328  and accuracy  0.9912
+ep  127 training loss:  0.029003300605657797
+valid loss  0.026853572767972945  and accuracy  0.9932
+ep  128 training loss:  0.030776385447471556
+valid loss  0.024480903860926627  and accuracy  0.9924
+ep  129 training loss:  0.029025503642496373
+valid loss  0.02322553682923317  and accuracy  0.992
+ep  130 training loss:  0.030473225196048028
+valid loss  0.03219714716672897  and accuracy  0.9908
+ep  131 training loss:  0.03040828581260543
+valid loss  0.028885889226198197  and accuracy  0.994
+ep  132 training loss:  0.03032966292324086
+valid loss  0.07578420796394349  and accuracy  0.9912
+ep  133 training loss:  0.029672329798857866
+valid loss  0.024815696173906325  and accuracy  0.9932
+ep  134 training loss:  0.030448566122448974
+valid loss  0.019511863979697227  and accuracy  0.9948
+ep  135 training loss:  0.030516278689721527
+valid loss  0.024524858969449996  and accuracy  0.994
+ep  136 training loss:  0.029140943732091775
+valid loss  0.02746973732113838  and accuracy  0.9932
+ep  137 training loss:  0.03252202750974639
+valid loss  0.05421245559155941  and accuracy  0.9932
+ep  138 training loss:  0.029482901416449627
+valid loss  0.025445685729384424  and accuracy  0.9924
+ep  139 training loss:  0.03160113028125183
+valid loss  0.05661453766822815  and accuracy  0.992
+ep  140 training loss:  0.029698877392145214
+valid loss  0.025760077995061876  and accuracy  0.9928
+ep  141 training loss:  0.029506600594048936
+valid loss  0.03558268837928772  and accuracy  0.9924
+ep  142 training loss:  0.03042101290184642
+valid loss  0.02314673892259598  and accuracy  0.9944
+ep  143 training loss:  0.030446384638384262
+valid loss  0.030038755995035173  and accuracy  0.9932
+ep  144 training loss:  0.03092788200745608
+valid loss  0.03144752191603184  and accuracy  0.9936
+ep  145 training loss:  0.031087412637996616
+valid loss  0.023206191375851632  and accuracy  0.9916
+ep  146 training loss:  0.030872469120293067
+valid loss  0.04601646179258823  and accuracy  0.9948
+ep  147 training loss:  0.03048913845088814
+valid loss  0.06702354574799538  and accuracy  0.9908
+ep  148 training loss:  0.03043973573228548
+valid loss  0.03250101289153099  and accuracy  0.996
+ep  149 training loss:  0.030837385354853225
+valid loss  0.025326120314002037  and accuracy  0.9936
+ep  150 training loss:  0.02872944899817483
+valid loss  0.13795991501808166  and accuracy  0.9944
+ep  151 training loss:  0.03143709420961807
+valid loss  0.027762394163012506  and accuracy  0.992
+ep  152 training loss:  0.03221621196701969
+valid loss  0.04115177024900913  and accuracy  0.9924
+ep  153 training loss:  0.029689224383199427
+valid loss  0.028271452245116235  and accuracy  0.992
+ep  154 training loss:  0.03102124580657284
+valid loss  0.03335660972595215  and accuracy  0.9928
+ep  155 training loss:  0.03165233473644504
+valid loss  0.0477630508005619  and accuracy  0.9904
+ep  156 training loss:  0.029310509363244006
+valid loss  0.10272173761725426  and accuracy  0.9916
+ep  157 training loss:  0.02934678233888952
+valid loss  0.03746033013164997  and accuracy  0.9928
+ep  158 training loss:  0.03044054860331654
+valid loss  0.06848055410385132  and accuracy  0.9944
+ep  159 training loss:  0.030000819121893542
+valid loss  0.03222428911849856  and accuracy  0.9936
+ep  160 training loss:  0.029634048515568043
+valid loss  0.020422223982214927  and accuracy  0.9952
+ep  161 training loss:  0.02982223667782709
+valid loss  0.02205165573358536  and accuracy  0.9936
+ep  162 training loss:  0.030339796581903646
+valid loss  0.021213669419288636  and accuracy  0.9944
+ep  163 training loss:  0.030424446411396158
+valid loss  0.060474909475445746  and accuracy  0.9936
+ep  164 training loss:  0.030789120911114052
+valid loss  0.021312994080781935  and accuracy  0.994
+ep  165 training loss:  0.02880701631245408
+valid loss  0.0748594477891922  and accuracy  0.9932
+ep  166 training loss:  0.029782025606115446
+valid loss  0.021049817878007887  and accuracy  0.9932
+ep  167 training loss:  0.03111204868410705
+valid loss  0.02996713148355484  and accuracy  0.994
+ep  168 training loss:  0.03318973089526759
+valid loss  0.052807162353396414  and accuracy  0.9948
+ep  169 training loss:  0.03096230225042873
+valid loss  0.020367998239398003  and accuracy  0.9944
+ep  170 training loss:  0.031905623371153095
+valid loss  0.1195259113073349  and accuracy  0.9944
+ep  171 training loss:  0.030715788788825613
+valid loss  0.027670232111215592  and accuracy  0.9944
+ep  172 training loss:  0.029900075583695226
+valid loss  0.026343465799093246  and accuracy  0.9944
+ep  173 training loss:  0.030373009657217058
+valid loss  0.07419341232478618  and accuracy  0.9936
+ep  174 training loss:  0.030985704460851644
+valid loss  0.08370394968092441  and accuracy  0.9916
+ep  175 training loss:  0.03054210642073036
+valid loss  0.028476404872536658  and accuracy  0.9916
+ep  176 training loss:  0.030349256920795493
+valid loss  0.04498294610977173  and accuracy  0.9928
+ep  177 training loss:  0.029706580330244692
+valid loss  0.028242085164785387  and accuracy  0.9944
+ep  178 training loss:  0.030930522397987426
+valid loss  0.059186722162365916  and accuracy  0.994
+ep  179 training loss:  0.03023456051954408
+valid loss  0.0788943297252059  and accuracy  0.9912
+ep  180 training loss:  0.030237419117508834
+valid loss  0.028206706987321375  and accuracy  0.9924
+ep  181 training loss:  0.029927620811936062
+valid loss  0.033975642578303815  and accuracy  0.9944
+ep  182 training loss:  0.030977352628712637
+valid loss  0.05570070613026619  and accuracy  0.9952
+ep  183 training loss:  0.029622677454163242
+valid loss  0.04209429659843445  and accuracy  0.9916
+ep  184 training loss:  0.02965674819722998
+valid loss  0.024741968351602556  and accuracy  0.9928
+ep  185 training loss:  0.03142199847507598
+valid loss  0.05937962581813335  and accuracy  0.9928
+ep  186 training loss:  0.03080647797930775
+valid loss  0.028409861570596696  and accuracy  0.9916
+ep  187 training loss:  0.030168629467359417
+valid loss  0.026513492980599403  and accuracy  0.994
+ep  188 training loss:  0.030912396949707734
+valid loss  0.0237254756629467  and accuracy  0.994
+ep  189 training loss:  0.03023030977652468
+valid loss  0.04350810036659241  and accuracy  0.9932
+ep  190 training loss:  0.02916602920298011
+valid loss  0.030035738933086396  and accuracy  0.994
+ep  191 training loss:  0.030577355138352177
+valid loss  0.02281230393946171  and accuracy  0.9944
+ep  192 training loss:  0.03006441396010846
+valid loss  0.02353096812069416  and accuracy  0.994
+ep  193 training loss:  0.031018840119609394
+valid loss  0.02279786184132099  and accuracy  0.9944
+ep  194 training loss:  0.029862193202302878
+valid loss  0.02358438057899475  and accuracy  0.9944
+ep  195 training loss:  0.030422874566172473
+valid loss  0.027346126037836076  and accuracy  0.992
+ep  196 training loss:  0.030587113974656164
+valid loss  0.02851109350323677  and accuracy  0.9916
+ep  197 training loss:  0.02905105157107187
+valid loss  0.03689679067134857  and accuracy  0.9908
+ep  198 training loss:  0.030055345326006695
+valid loss  0.021854893410205842  and accuracy  0.994
+ep  199 training loss:  0.030289919935983973
+valid loss  0.08293046827316285  and accuracy  0.9916
+ep  200 training loss:  0.030646160691770966
+valid loss  0.03472552084624767  and accuracy  0.9908
+ep  201 training loss:  0.029683776908348582
+valid loss  0.019556464758515357  and accuracy  0.9952
+ep  202 training loss:  0.030616968823232133
+valid loss  0.036630516755580905  and accuracy  0.9928
+ep  203 training loss:  0.03142942296337791
+valid loss  0.04122417742908001  and accuracy  0.9904
+ep  204 training loss:  0.030508671352731838
+valid loss  0.02895550497472286  and accuracy  0.9928
+ep  205 training loss:  0.03040716542503288
+valid loss  0.02739936615228653  and accuracy  0.9896
+ep  206 training loss:  0.029410971211029497
+valid loss  0.028788553085923194  and accuracy  0.992
+ep  207 training loss:  0.030332834992511354
+valid loss  0.029493016976118086  and accuracy  0.9928
+ep  208 training loss:  0.031202878000726002
+valid loss  0.02885446847975254  and accuracy  0.9916
+ep  209 training loss:  0.031759239229283795
+valid loss  0.04149987151175737  and accuracy  0.992
+ep  210 training loss:  0.031080920402579537
+valid loss  0.023987194040417673  and accuracy  0.9936
+ep  211 training loss:  0.03101928225941438
+valid loss  0.023814926290512083  and accuracy  0.9952
+ep  212 training loss:  0.02998142822534066
+valid loss  0.03195666297078133  and accuracy  0.9928
+ep  213 training loss:  0.029683873918784937
+valid loss  0.05954853971004486  and accuracy  0.994
+ep  214 training loss:  0.031300753019657714
+valid loss  0.0498713871717453  and accuracy  0.9928
+ep  215 training loss:  0.0295333481688396
+valid loss  0.02733464378416538  and accuracy  0.9944
+ep  216 training loss:  0.03116974476510975
+valid loss  0.11395941878259182  and accuracy  0.994
+ep  217 training loss:  0.030344361290923327
+valid loss  0.022946251720190047  and accuracy  0.9944
+ep  218 training loss:  0.030089284066097247
+valid loss  0.07881073700934649  and accuracy  0.9944
+ep  219 training loss:  0.029321508691859656
+valid loss  0.01847008928656578  and accuracy  0.9952
+ep  220 training loss:  0.028808002586331222
+valid loss  0.05282744508087635  and accuracy  0.994
+ep  221 training loss:  0.03135043524330072
+valid loss  0.023378430637717246  and accuracy  0.9948
+ep  222 training loss:  0.03147314868902907
+valid loss  0.022826888114213944  and accuracy  0.9948
+ep  223 training loss:  0.031067026867673875
+valid loss  0.024215292620658874  and accuracy  0.9928
+ep  224 training loss:  0.030877695014089934
+valid loss  0.029426016655564307  and accuracy  0.9944
+ep  225 training loss:  0.02986540238630556
+valid loss  0.026134946474432947  and accuracy  0.9928
+ep  226 training loss:  0.03077976211885544
+valid loss  0.04924791216850281  and accuracy  0.9944
+ep  227 training loss:  0.03124111313315225
+valid loss  0.028497987481951714  and accuracy  0.994
+ep  228 training loss:  0.031281214325828095
+valid loss  0.033379600337147715  and accuracy  0.994
+ep  229 training loss:  0.02948928225256276
+valid loss  0.026725924859941005  and accuracy  0.9936
+ep  230 training loss:  0.02966171608038406
+valid loss  0.024828502345085143  and accuracy  0.9928
+ep  231 training loss:  0.03123718714835489
+valid loss  0.026988831725716592  and accuracy  0.9932
+ep  232 training loss:  0.030118653994354604
+valid loss  0.02944888803958893  and accuracy  0.9912
+ep  233 training loss:  0.029977343836483882
+valid loss  0.05276427068710327  and accuracy  0.9932
+ep  234 training loss:  0.03067853834970952
+valid loss  0.028052479626238348  and accuracy  0.9944
+ep  235 training loss:  0.02877743973501145
+valid loss  0.03859389931857586  and accuracy  0.994
+ep  236 training loss:  0.02924382480384107
+valid loss  0.025502129292488098  and accuracy  0.9936
+ep  237 training loss:  0.031006399376096234
+valid loss  0.024652530544996262  and accuracy  0.994
+ep  238 training loss:  0.02968042371930338
+valid loss  0.021029843682050704  and accuracy  0.9944
+ep  239 training loss:  0.031433682181045974
+valid loss  0.018807782900333404  and accuracy  0.9952
+ep  240 training loss:  0.03059894968864694
+valid loss  0.029567861878871917  and accuracy  0.994
+ep  241 training loss:  0.030528889774882464
+valid loss  0.024711795654892923  and accuracy  0.9928
+ep  242 training loss:  0.029852381943458184
+valid loss  0.02966860587000847  and accuracy  0.9924
+ep  243 training loss:  0.02996848938557481
+valid loss  0.0653526733726263  and accuracy  0.9944
+ep  244 training loss:  0.030206108347996443
+valid loss  0.04168766162395477  and accuracy  0.9944
+ep  245 training loss:  0.030913316436887946
+valid loss  0.021760207587480544  and accuracy  0.9936
+ep  246 training loss:  0.031956365005931596
+valid loss  0.03444288856834173  and accuracy  0.994
+ep  247 training loss:  0.0303099030841287
+valid loss  0.036874638682603836  and accuracy  0.992
+ep  248 training loss:  0.03152910656226125
+valid loss  0.04279029407054186  and accuracy  0.9924
+ep  249 training loss:  0.030352313627469107
+valid loss  0.03291274057030678  and accuracy  0.9948
+ep  250 training loss:  0.029952573978795253
+valid loss  0.03442569752931595  and accuracy  0.9936
+ep  251 training loss:  0.030881901658431233
+valid loss  0.02812926366329193  and accuracy  0.9944
+ep  252 training loss:  0.030926804312505683
+valid loss  0.03203620657622814  and accuracy  0.9936
+ep  253 training loss:  0.031209460576016215
+valid loss  0.020803341092914342  and accuracy  0.9936
+ep  254 training loss:  0.031336615521348324
+valid loss  0.027906031200289727  and accuracy  0.9936
+ep  255 training loss:  0.031877213577936415
+valid loss  0.03207479045689106  and accuracy  0.9936
+ep  256 training loss:  0.02895928792581334
+valid loss  0.03372772607803345  and accuracy  0.994
+ep  257 training loss:  0.02946018582155071
+valid loss  0.030403642082214355  and accuracy  0.99
+ep  258 training loss:  0.030702774098768603
+valid loss  0.027977352982759475  and accuracy  0.9948
+ep  259 training loss:  0.028877086856544523
+valid loss  0.022619727432727815  and accuracy  0.9944
+ep  260 training loss:  0.030368813037383903
+valid loss  0.02524466091096401  and accuracy  0.9936
+ep  261 training loss:  0.03043621230477284
+valid loss  0.044827891743183135  and accuracy  0.9936
+ep  262 training loss:  0.0297301731206903
+valid loss  0.028283072066307067  and accuracy  0.9936
+ep  263 training loss:  0.03269124506833365
+valid loss  0.03114425836354494  and accuracy  0.9944
+ep  264 training loss:  0.03169526331060862
+valid loss  0.02504489277303219  and accuracy  0.9936
+ep  265 training loss:  0.030687113667053404
+valid loss  0.02148888832628727  and accuracy  0.9936
+ep  266 training loss:  0.028456435211636395
+valid loss  0.021225844031572343  and accuracy  0.9948
+ep  267 training loss:  0.03104755310394409
+valid loss  0.022855645924806593  and accuracy  0.994
+ep  268 training loss:  0.03103249190415858
+valid loss  0.025641547080874443  and accuracy  0.9944
+ep  269 training loss:  0.03143978998195404
+valid loss  0.025341294422745703  and accuracy  0.9936
+ep  270 training loss:  0.030424784402035394
+valid loss  0.025951907125115393  and accuracy  0.992
+ep  271 training loss:  0.029899389864425467
+valid loss  0.02061528694033623  and accuracy  0.9932
+ep  272 training loss:  0.028858823426436007
+valid loss  0.02088117399215698  and accuracy  0.9944
+ep  273 training loss:  0.028709486036360598
+valid loss  0.027135577642917633  and accuracy  0.9944
+ep  274 training loss:  0.03080235680597373
+valid loss  0.025648714107275008  and accuracy  0.9936
+ep  275 training loss:  0.030153024138978746
+valid loss  0.022802535873651504  and accuracy  0.9944
+ep  276 training loss:  0.029968074020404804
+valid loss  0.052760958081483844  and accuracy  0.992
+ep  277 training loss:  0.029203414971035322
+valid loss  0.022871458511054515  and accuracy  0.9932
+ep  278 training loss:  0.02962049079156189
+valid loss  0.023854488405585288  and accuracy  0.992
+ep  279 training loss:  0.030523034120028644
+valid loss  0.025508455854654312  and accuracy  0.9944
+ep  280 training loss:  0.03230458527571674
+valid loss  0.03143263349831104  and accuracy  0.9936
+ep  281 training loss:  0.03044887162428735
+valid loss  0.02611934127807617  and accuracy  0.9944
+ep  282 training loss:  0.0317517357329831
+valid loss  0.02273780471086502  and accuracy  0.9936
+ep  283 training loss:  0.032129905762197035
+valid loss  0.025873301285505294  and accuracy  0.9924
+ep  284 training loss:  0.03144172803331666
+valid loss  0.022049800771474837  and accuracy  0.9952
+ep  285 training loss:  0.02974594642779823
+valid loss  0.05167794616222381  and accuracy  0.9912
+ep  286 training loss:  0.03166875623934067
+valid loss  0.024292772459983826  and accuracy  0.9936
+ep  287 training loss:  0.030772947206058682
+valid loss  0.09725316406786441  and accuracy  0.994
+ep  288 training loss:  0.030663780284091675
+valid loss  0.018109211486577986  and accuracy  0.9952
+ep  289 training loss:  0.029964709279678675
+valid loss  0.03455195714533329  and accuracy  0.994
+ep  290 training loss:  0.030609602302758485
+valid loss  0.023874312883615495  and accuracy  0.9912
+ep  291 training loss:  0.030925923910918862
+valid loss  0.03258244061172009  and accuracy  0.9944
+ep  292 training loss:  0.02996693596680149
+valid loss  0.07104592858552933  and accuracy  0.9944
+ep  293 training loss:  0.031032353822887278
+valid loss  0.024036512860655786  and accuracy  0.9928
+ep  294 training loss:  0.031001726646766342
+valid loss  0.0763360361456871  and accuracy  0.9948
+ep  295 training loss:  0.028971565599880636
+valid loss  0.02360346414744854  and accuracy  0.9928
+ep  296 training loss:  0.030901274936974386
+valid loss  0.04494979271888733  and accuracy  0.992
+ep  297 training loss:  0.02958873687406232
+valid loss  0.024400432240962982  and accuracy  0.9936
+ep  298 training loss:  0.032410927712305776
+valid loss  0.02200917568206787  and accuracy  0.994
+ep  299 training loss:  0.031025984744582125
+valid loss  0.022506098255515097  and accuracy  0.992
+ep  300 training loss:  0.030554208707748314
+valid loss  0.018740091694891454  and accuracy  0.996
+ep  301 training loss:  0.02961620548974943
+valid loss  0.02827174050807953  and accuracy  0.9948
+ep  302 training loss:  0.031047936334448908
+valid loss  0.022711917001008986  and accuracy  0.9944
+ep  303 training loss:  0.030908214266098473
+valid loss  0.024041347390413283  and accuracy  0.9936
+ep  304 training loss:  0.03078645872131645
+valid loss  0.03517487604618073  and accuracy  0.9948
+ep  305 training loss:  0.03174730823382163
+valid loss  0.03273617217540741  and accuracy  0.9928
+ep  306 training loss:  0.03129403411124362
+valid loss  0.03155960867702961  and accuracy  0.994
+ep  307 training loss:  0.030992596482817516
+valid loss  0.04918599809706211  and accuracy  0.9948
+ep  308 training loss:  0.030872320578508562
+valid loss  0.05271720303297043  and accuracy  0.9916
+ep  309 training loss:  0.03016500823309185
+valid loss  0.025654673635959625  and accuracy  0.994
+ep  310 training loss:  0.03255992036400762
+valid loss  0.03197087922692299  and accuracy  0.9944
+ep  311 training loss:  0.029545095681736324
+valid loss  0.037703999871015546  and accuracy  0.9944
+ep  312 training loss:  0.03217264384400876
+valid loss  0.025600686728954315  and accuracy  0.9924
+ep  313 training loss:  0.029846506663574888
+valid loss  0.021486984838545324  and accuracy  0.994
+ep  314 training loss:  0.03131837549155338
+valid loss  0.02432402885556221  and accuracy  0.9924
+ep  315 training loss:  0.030104122645549725
+valid loss  0.024660255828499796  and accuracy  0.9932
+ep  316 training loss:  0.03058454402875281
+valid loss  0.030084975570440292  and accuracy  0.9932
+ep  317 training loss:  0.030835454305606646
+valid loss  0.023574233531951903  and accuracy  0.9952
+ep  318 training loss:  0.03091933352860218
+valid loss  0.039012221810221674  and accuracy  0.994
+ep  319 training loss:  0.03188910964175462
+valid loss  0.02241624096632004  and accuracy  0.9948
+ep  320 training loss:  0.03079549607249047
+valid loss  0.030688353925943376  and accuracy  0.9944
+ep  321 training loss:  0.030743065687118275
+valid loss  0.024768429923057556  and accuracy  0.9936
+ep  322 training loss:  0.029239443669587216
+valid loss  0.031551781855523583  and accuracy  0.9948
+ep  323 training loss:  0.029654395459766735
+valid loss  0.03468046400547028  and accuracy  0.9912
+ep  324 training loss:  0.031407826593008
+valid loss  0.04474017851948738  and accuracy  0.9944
+ep  325 training loss:  0.03041006012474553
+valid loss  0.029158045411109924  and accuracy  0.9932
+ep  326 training loss:  0.029454675132222937
+valid loss  0.033110735249519345  and accuracy  0.9916
+ep  327 training loss:  0.031238778265848113
+valid loss  0.023968947514891623  and accuracy  0.992
+ep  328 training loss:  0.031013764141777388
+valid loss  0.0683205527305603  and accuracy  0.9912
+ep  329 training loss:  0.030236630184263546
+valid loss  0.023056499636173247  and accuracy  0.9936
+ep  330 training loss:  0.030474893120593153
+valid loss  0.03205918572247028  and accuracy  0.9912
+ep  331 training loss:  0.030450830976431902
+valid loss  0.03002144687771797  and accuracy  0.9932
+ep  332 training loss:  0.03157267428608758
+valid loss  0.028825461715459823  and accuracy  0.9912
+ep  333 training loss:  0.030212460350566173
+valid loss  0.027546433559060095  and accuracy  0.994
+ep  334 training loss:  0.03069431296152305
+valid loss  0.029174779051542282  and accuracy  0.9916
+ep  335 training loss:  0.029554849260411725
+valid loss  0.03646387010216713  and accuracy  0.9932
+ep  336 training loss:  0.029055184822137807
+valid loss  0.04412967743873596  and accuracy  0.994
+ep  337 training loss:  0.030427629600158254
+valid loss  0.024016950130462646  and accuracy  0.9936
+ep  338 training loss:  0.03240243297394939
+valid loss  0.026555371737480165  and accuracy  0.9944
+ep  339 training loss:  0.03146531694703698
+valid loss  0.030345849207043647  and accuracy  0.992
+ep  340 training loss:  0.031214834300678587
+valid loss  0.04133501514941454  and accuracy  0.9952
+ep  341 training loss:  0.031192880025942685
+valid loss  0.04278491639196873  and accuracy  0.9916
+ep  342 training loss:  0.03091141108676088
+valid loss  0.04020758135318756  and accuracy  0.994
+ep  343 training loss:  0.03120957280740791
+valid loss  0.02661226214170456  and accuracy  0.9932
+ep  344 training loss:  0.029847430284925053
+valid loss  0.028158948934078217  and accuracy  0.994
+ep  345 training loss:  0.03149830259254184
+valid loss  0.023224416905641556  and accuracy  0.9948
+ep  346 training loss:  0.030127611740849016
+valid loss  0.027787609735131263  and accuracy  0.9928
+ep  347 training loss:  0.031435427263845496
+valid loss  0.04119337149858475  and accuracy  0.9932
+ep  348 training loss:  0.030930798324058876
+valid loss  0.06538934873938561  and accuracy  0.9944
+ep  349 training loss:  0.031620670151830454
+valid loss  0.026214814925193786  and accuracy  0.9932
+ep  350 training loss:  0.030362946503610894
+valid loss  0.09559244751632213  and accuracy  0.9924
+ep  351 training loss:  0.031167591649199706
+valid loss  0.021557133516669272  and accuracy  0.9936
+ep  352 training loss:  0.03278994136815562
+valid loss  0.06382138256430626  and accuracy  0.9952
+ep  353 training loss:  0.030588749183870924
+valid loss  0.045401039385795594  and accuracy  0.9944
+ep  354 training loss:  0.030647245053442903
+valid loss  0.033451772874593735  and accuracy  0.9936
+ep  355 training loss:  0.030637699327022507
+valid loss  0.020063909363746642  and accuracy  0.996
+ep  356 training loss:  0.030544441442376707
+valid loss  0.06755969880819321  and accuracy  0.9924
+ep  357 training loss:  0.030334150536952632
+valid loss  0.0515271208897233  and accuracy  0.994
+ep  358 training loss:  0.03148655685024562
+valid loss  0.02119745097756386  and accuracy  0.9924
+ep  359 training loss:  0.03184273806894176
+valid loss  0.05172932074069977  and accuracy  0.9936
+ep  360 training loss:  0.031659391685258546
+valid loss  0.022633206503093244  and accuracy  0.9948
+ep  361 training loss:  0.031454257679628006
+valid loss  0.06408351395726204  and accuracy  0.9932
+ep  362 training loss:  0.03341056412950944
+valid loss  0.024372807531058787  and accuracy  0.994
+ep  363 training loss:  0.03137533617988505
+valid loss  0.028563091012835502  and accuracy  0.9932
+ep  364 training loss:  0.03413193208020651
+valid loss  0.09020053578615189  and accuracy  0.99
+ep  365 training loss:  0.030956138452112304
+valid loss  0.04201217731833458  and accuracy  0.9932
+ep  366 training loss:  0.030487261253002777
+valid loss  0.021557334965467453  and accuracy  0.9944
+ep  367 training loss:  0.02942209617311107
+valid loss  0.03592111069560051  and accuracy  0.9936
+ep  368 training loss:  0.030151082914178395
+valid loss  0.07717485622167587  and accuracy  0.9932
+ep  369 training loss:  0.030289155905721326
+valid loss  0.03725880057811737  and accuracy  0.9952
+ep  370 training loss:  0.030964373871810745
+valid loss  0.02926784289777279  and accuracy  0.9932
+ep  371 training loss:  0.030877751788582486
+valid loss  0.02659661229029298  and accuracy  0.9944
+ep  372 training loss:  0.030878906304809394
+valid loss  0.038700939524173736  and accuracy  0.9948
+ep  373 training loss:  0.030404997202665224
+valid loss  0.03381098178029061  and accuracy  0.9928
+ep  374 training loss:  0.03159343454397164
+valid loss  0.11274544086456299  and accuracy  0.994
+ep  375 training loss:  0.03206806607759764
+valid loss  0.056531720039248466  and accuracy  0.9928
+ep  376 training loss:  0.03135976277910805
+valid loss  0.03661063566207886  and accuracy  0.994
+ep  377 training loss:  0.031143170119547956
+valid loss  0.026652260434627532  and accuracy  0.992
+ep  378 training loss:  0.032600016678940205
+valid loss  0.0242436980932951  and accuracy  0.9936
+ep  379 training loss:  0.03075448533475404
+valid loss  0.023345072555541992  and accuracy  0.9936
+ep  380 training loss:  0.03140607533376873
+valid loss  0.02434559210538864  and accuracy  0.994
+ep  381 training loss:  0.030252088687780485
+valid loss  0.025293309476971625  and accuracy  0.9936
+ep  382 training loss:  0.030379007101007462
+valid loss  0.043377340626716616  and accuracy  0.9928
+ep  383 training loss:  0.03131730754565208
+valid loss  0.02370213535577059  and accuracy  0.9932
+ep  384 training loss:  0.031859193231559835
+valid loss  0.027705386504530905  and accuracy  0.9932
+ep  385 training loss:  0.030826147796679654
+valid loss  0.024350026458501817  and accuracy  0.994
+ep  386 training loss:  0.030892654554379794
+valid loss  0.02209733341932297  and accuracy  0.9952
+ep  387 training loss:  0.029187995166866893
+valid loss  0.024756821972131728  and accuracy  0.994
+ep  388 training loss:  0.03085534206299968
+valid loss  0.020188139081001283  and accuracy  0.9932
+ep  389 training loss:  0.030320388775404727
+valid loss  0.027936466431617738  and accuracy  0.9928
+ep  390 training loss:  0.030611172939980554
+valid loss  0.02411685172021389  and accuracy  0.9932
+ep  391 training loss:  0.03168037438696589
+valid loss  0.021410634285211564  and accuracy  0.9952
+ep  392 training loss:  0.03040448430321425
+valid loss  0.022874946808815  and accuracy  0.9944
+ep  393 training loss:  0.029832009926827482
+valid loss  0.02008058493733406  and accuracy  0.994
+ep  394 training loss:  0.031798917937450356
+valid loss  0.031682230733335016  and accuracy  0.9944
+ep  395 training loss:  0.029758260875830056
+valid loss  0.041044815915822985  and accuracy  0.9908
+ep  396 training loss:  0.03127580777891716
+valid loss  0.056395852410793305  and accuracy  0.9944
+ep  397 training loss:  0.03134562762646184
+valid loss  0.022596834868192674  and accuracy  0.994
+ep  398 training loss:  0.03255097902033114
+valid loss  0.03941426613628864  and accuracy  0.9928
+ep  399 training loss:  0.0296687913331294
+valid loss  0.027577146029472352  and accuracy  0.9932
+ep  400 training loss:  0.030512029529968676
+valid loss  0.0313249639749527  and accuracy  0.9916
+ep  401 training loss:  0.03115489741096798
+valid loss  0.02779020675122738  and accuracy  0.9928
+ep  402 training loss:  0.030217963307053487
+valid loss  0.021842781427502633  and accuracy  0.9948
+ep  403 training loss:  0.030912390327996184
+valid loss  0.04102215488255024  and accuracy  0.9928
+ep  404 training loss:  0.030175935242156553
+valid loss  0.024702669118344785  and accuracy  0.9928
+ep  405 training loss:  0.03133928092294858
+valid loss  0.021053770789504052  and accuracy  0.994
+ep  406 training loss:  0.030560587857206906
+valid loss  0.03377682860195637  and accuracy  0.9936
+ep  407 training loss:  0.03181566108083469
+valid loss  0.025501069805026054  and accuracy  0.992
+ep  408 training loss:  0.03246624476876653
+valid loss  0.03775869590044022  and accuracy  0.9928
+ep  409 training loss:  0.03214872485456726
+valid loss  0.02001833924651146  and accuracy  0.9948
+ep  410 training loss:  0.03092563763826088
+valid loss  0.019965919390320778  and accuracy  0.9944
+ep  411 training loss:  0.031674776095145754
+valid loss  0.030053419607877732  and accuracy  0.9936
+ep  412 training loss:  0.03161984051154201
+valid loss  0.04179668514728546  and accuracy  0.9932
+ep  413 training loss:  0.03200553398650067
+valid loss  0.04852415766119957  and accuracy  0.9928
+ep  414 training loss:  0.031606875782597174
+valid loss  0.02078537859618664  and accuracy  0.994
+ep  415 training loss:  0.03252907978725519
+valid loss  0.025611866873502732  and accuracy  0.9936
+ep  416 training loss:  0.03393188447137649
+valid loss  0.02162098958492279  and accuracy  0.9948
+ep  417 training loss:  0.03134835102670172
+valid loss  0.028206423470377922  and accuracy  0.9928
+ep  418 training loss:  0.031367622898988805
+valid loss  0.025181507709622384  and accuracy  0.9932
+ep  419 training loss:  0.03192475922523047
+valid loss  0.031424359652400015  and accuracy  0.9932
+ep  420 training loss:  0.029871878516362575
+valid loss  0.03329463443160057  and accuracy  0.9924
+ep  421 training loss:  0.031103980701354745
+valid loss  0.06420834213197231  and accuracy  0.9948
+ep  422 training loss:  0.03151763590455218
+valid loss  0.028803579235076905  and accuracy  0.9936
+ep  423 training loss:  0.032239153207680754
+valid loss  0.02573561408519745  and accuracy  0.9932
+ep  424 training loss:  0.031693515802980375
+valid loss  0.035703971523046496  and accuracy  0.9936
+ep  425 training loss:  0.030536788615967793
+valid loss  0.041254742403328416  and accuracy  0.9916
+ep  426 training loss:  0.0321184432665067
+valid loss  0.029367199051380157  and accuracy  0.9944
+ep  427 training loss:  0.031013480330080705
+valid loss  0.025972215622663497  and accuracy  0.992
+ep  428 training loss:  0.030737020647887695
+valid loss  0.023109525698423384  and accuracy  0.994
+ep  429 training loss:  0.031716017868162055
+valid loss  0.0650894396275282  and accuracy  0.994
+ep  430 training loss:  0.03211689363622975
+valid loss  0.025623350924253465  and accuracy  0.994
+ep  431 training loss:  0.03311756443623838
+valid loss  0.04371483950316906  and accuracy  0.994
+ep  432 training loss:  0.03178658434550793
+valid loss  0.034177368196845054  and accuracy  0.9928
+ep  433 training loss:  0.030024971272635977
+valid loss  0.05654516666829586  and accuracy  0.994
+ep  434 training loss:  0.03055353737449084
+valid loss  0.028224727514386178  and accuracy  0.9932
+ep  435 training loss:  0.030509699582744177
+valid loss  0.02169781676530838  and accuracy  0.994
+ep  436 training loss:  0.030570484124551413
+valid loss  0.027556400755047797  and accuracy  0.9908
+ep  437 training loss:  0.031156660479488583
+valid loss  0.026774453768134115  and accuracy  0.9912
+ep  438 training loss:  0.031218020762035375
+valid loss  0.021499561822414397  and accuracy  0.9936
+ep  439 training loss:  0.031124603209831802
+valid loss  0.025112086623907088  and accuracy  0.9932
+ep  440 training loss:  0.031205413929098272
+valid loss  0.03418142437636852  and accuracy  0.9932
+ep  441 training loss:  0.030551857657718326
+valid loss  0.024012087073922158  and accuracy  0.9948
+ep  442 training loss:  0.030165913323201964
+valid loss  0.03958563141226769  and accuracy  0.9936
+ep  443 training loss:  0.03356530611139067
+valid loss  0.031600032269954684  and accuracy  0.9944
+ep  444 training loss:  0.03410759519292661
+valid loss  0.02252272830307484  and accuracy  0.9936
+ep  445 training loss:  0.03193728233206305
+valid loss  0.024760871094465255  and accuracy  0.9924
+ep  446 training loss:  0.031115584383408505
+valid loss  0.033194951766729354  and accuracy  0.9948
+ep  447 training loss:  0.030759973918051985
+valid loss  0.08178764328956604  and accuracy  0.9916
+ep  448 training loss:  0.03182089867141388
+valid loss  0.04920310794115067  and accuracy  0.9928
+ep  449 training loss:  0.03157079562516996
+valid loss  0.035316681551933286  and accuracy  0.9912
+ep  450 training loss:  0.03176083803847513
+valid loss  0.024170584839582444  and accuracy  0.9908
+ep  451 training loss:  0.030007021105292117
+valid loss  0.04073576700091362  and accuracy  0.9936
+ep  452 training loss:  0.03180485993745006
+valid loss  0.029925394982099535  and accuracy  0.9932
+ep  453 training loss:  0.03140894206239579
+valid loss  0.02490243522375822  and accuracy  0.9928
+ep  454 training loss:  0.031930539998624025
+valid loss  0.03577276009619236  and accuracy  0.994
+ep  455 training loss:  0.031730231502989655
+valid loss  0.020806199795007706  and accuracy  0.9924
+ep  456 training loss:  0.02956931142250615
+valid loss  0.026072029039263724  and accuracy  0.9892
+ep  457 training loss:  0.0315132483118583
+valid loss  0.024213754945993423  and accuracy  0.992
+ep  458 training loss:  0.03072706759520048
+valid loss  0.05955549693107605  and accuracy  0.994
+ep  459 training loss:  0.031545057291004944
+valid loss  0.034393729254603385  and accuracy  0.9876
+ep  460 training loss:  0.03125909959103157
+valid loss  0.03789709928035736  and accuracy  0.9932
+ep  461 training loss:  0.03039355393049659
+valid loss  0.02649423668384552  and accuracy  0.9928
+ep  462 training loss:  0.032059484649667735
+valid loss  0.026187917348742484  and accuracy  0.9916
+ep  463 training loss:  0.03066221205698053
+valid loss  0.024136126701533794  and accuracy  0.9932
+ep  464 training loss:  0.030428873091967675
+valid loss  0.0556991976827383  and accuracy  0.9924
+ep  465 training loss:  0.030744215758907418
+valid loss  0.031186821141839027  and accuracy  0.9936
+ep  466 training loss:  0.03129957941958543
+valid loss  0.024584387427568435  and accuracy  0.9936
+ep  467 training loss:  0.03128284841645121
+valid loss  0.02915767152309418  and accuracy  0.992
+ep  468 training loss:  0.03165291546535028
+valid loss  0.022946551966667176  and accuracy  0.9928
+ep  469 training loss:  0.03275514748621826
+valid loss  0.042235251887887716  and accuracy  0.9944
+ep  470 training loss:  0.031468732229073225
+valid loss  0.034064998266100883  and accuracy  0.9924
+ep  471 training loss:  0.030193392140529948
+valid loss  0.029571809512376784  and accuracy  0.9936
+ep  472 training loss:  0.03288574586307685
+valid loss  0.0290266999065876  and accuracy  0.9928
+ep  473 training loss:  0.029880389198858125
+valid loss  0.02430893121957779  and accuracy  0.9928
+ep  474 training loss:  0.03084921395978382
+valid loss  0.03853860833644867  and accuracy  0.992
+ep  475 training loss:  0.03075577352677642
+valid loss  0.028576823967695238  and accuracy  0.994
+ep  476 training loss:  0.03203511329052583
+valid loss  0.02403378560692072  and accuracy  0.9928
+ep  477 training loss:  0.03131701911427979
+valid loss  0.021526289635896683  and accuracy  0.9948
+ep  478 training loss:  0.032301307879441285
+valid loss  0.020832863262295723  and accuracy  0.9944
+ep  479 training loss:  0.030611630756239877
+valid loss  0.024224241039156914  and accuracy  0.9944
+ep  480 training loss:  0.031657661319491985
+valid loss  0.02294850069284439  and accuracy  0.9944
+ep  481 training loss:  0.030728630926060804
+valid loss  0.06458545892983675  and accuracy  0.9936
+ep  482 training loss:  0.03059733976933459
+valid loss  0.02563498826622963  and accuracy  0.9932
+ep  483 training loss:  0.030248272275748545
+valid loss  0.04335942004919052  and accuracy  0.9948
+ep  484 training loss:  0.030362473279931846
+valid loss  0.030949390310049056  and accuracy  0.994
+ep  485 training loss:  0.031177169901643757
+valid loss  0.02673243979215622  and accuracy  0.994
+ep  486 training loss:  0.03309171888215701
+valid loss  0.03335298502147198  and accuracy  0.994
+ep  487 training loss:  0.03380141564801889
+valid loss  0.04164525775909424  and accuracy  0.9924
+ep  488 training loss:  0.031271693255743915
+valid loss  0.06791441072821618  and accuracy  0.9932
+ep  489 training loss:  0.03171883614356344
+valid loss  0.021933959034085272  and accuracy  0.9944
+ep  490 training loss:  0.03061330888016759
+valid loss  0.03075360489487648  and accuracy  0.9944
+ep  491 training loss:  0.031134050707535128
+valid loss  0.04756104620099068  and accuracy  0.9924
+ep  492 training loss:  0.02986216240428377
+valid loss  0.024495001673698426  and accuracy  0.9928
+ep  493 training loss:  0.033182235232651534
+valid loss  0.0202593095600605  and accuracy  0.9948
+ep  494 training loss:  0.03151589237638828
+valid loss  0.022152808025479316  and accuracy  0.994
+ep  495 training loss:  0.03134119554508118
+valid loss  0.020672470358014106  and accuracy  0.9944
+ep  496 training loss:  0.0309266479452131
+valid loss  0.03128221223950386  and accuracy  0.9896
+ep  497 training loss:  0.03109223102569437
+valid loss  0.024438957306742667  and accuracy  0.9932
+ep  498 training loss:  0.03125321095052788
+valid loss  0.02998338512778282  and accuracy  0.9924
+ep  499 training loss:  0.032052193298728646
+valid loss  0.02491478900909424  and accuracy  0.9936
+
+[[26539    16    25     6     0]
+ [    7  6961    44    12     2]
+ [   34   107 38222   101    20]
+ [    5    30    84  1965     9]
+ [    0     5     8    17    39]]
+
+True positive:  [26539  6961 38222  1965    39]
+True negative:  [47626 67074 35613 72029 74158]
+False positive:  [ 46 158 161 136  31]
+False negative:  [ 47  65 262 128  30]
+True positive rate:  [0.99823215 0.99074865 0.99319198 0.93884376 0.56521739]
+True negative rate:  [0.99903507 0.99764993 0.99549952 0.99811543 0.99958215]
+False positive rate:  [0.00096493 0.00235007 0.00450048 0.00188457 0.00041785]
+False negative rate:  [0.00176785 0.00925135 0.00680802 0.06115624 0.43478261]
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     26586
+           1       0.98      0.99      0.98      7026
+           2       1.00      0.99      0.99     38484
+           3       0.94      0.94      0.94      2093
+           4       0.56      0.57      0.56        69
+
+    accuracy                           0.99     74258
+   macro avg       0.89      0.90      0.90     74258
+weighted avg       0.99      0.99      0.99     74258
+
+Accuracy:  0.9928357887365671
+Precision_weighted:  0.992870793427401
+Recall_weighted:  0.9928357887365671
+mcc:  0.9879440111655603
+f2:  0.9928427894772722

@@ -1,0 +1,1116 @@
+defaul parameters 
+TabNetWithEmbed: n_d=64,n_a=64,n_shared=2,n_ind=2,n_steps=5,relax=1.2,vbs=128
+TabNet: n_d=32, n_a=32, n_shared=2, n_ind=2, n_steps=4, relax=1.2, vbs=128
+
+1)
+model = TabNetWithEmbed(inp_dim=len(cont_names), final_out_dim=5)
+train_loop(model, epochs=5, lr=0.002, wd=0.001)
+
+training loss:  1.0228841981679428
+valid loss 1.230 and accuracy 0.918
+training loss:  0.9483812035912638
+valid loss 0.990 and accuracy 0.950
+training loss:  0.9397102287040978
+valid loss 0.968 and accuracy 0.959
+training loss:  0.9393309143867483
+valid loss 0.945 and accuracy 0.971
+training loss:  0.9351673413337701
+valid loss 0.948 and accuracy 0.976
+
+Accuracy:  0.972285814323036
+Precision_weighted:  0.971321801879007
+Recall_weighted:  0.972285814323036
+mcc:  0.9532487479305206
+f2:  0.9720928587833155
+
+2) model = TabNetWithEmbed(inp_dim=len(cont_names), final_out_dim=5)
+
+
+- train_loop(model, epochs=5, lr=0.001, wd=0.001)		
+
+training loss:  1.077530809921539
+valid loss 1.266 and accuracy 0.917
+training loss:  0.9538780950497198
+valid loss 0.960 and accuracy 0.958
+training loss:  0.9426847976344316
+valid loss 0.944 and accuracy 0.968
+training loss:  0.9356911123262414
+valid loss 0.937 and accuracy 0.976
+training loss:  0.9349244416595658
+valid loss 0.940 and accuracy 0.972
+
+Accuracy:  0.9639769452449568
+Precision_weighted:  0.9653250594534148
+Recall_weighted:  0.9639769452449568
+mcc:  0.9396225148580375
+f2:  0.9642462667714119
+
+- train_loop(model, epochs=10, lr=0.001, wd=0.001)
+
+training loss:  1.0746760838070775
+valid loss 1.241 and accuracy 0.865
+training loss:  0.9567369984166373
+valid loss 0.974 and accuracy 0.962
+training loss:  0.9408707929520063
+valid loss 0.944 and accuracy 0.975
+training loss:  0.9405304242171865
+valid loss 0.982 and accuracy 0.929
+training loss:  0.94360614378299
+valid loss 0.943 and accuracy 0.978
+training loss:  0.9339378210406408
+valid loss 0.937 and accuracy 0.980
+training loss:  0.9319858144529655
+valid loss 0.935 and accuracy 0.984
+training loss:  0.9300678219413534
+valid loss 0.935 and accuracy 0.982
+training loss:  0.9296518909086926
+valid loss 0.931 and accuracy 0.982
+training loss:  0.928594098876839
+valid loss 0.925 and accuracy 0.990
+
+Accuracy:  0.9824396024670743
+Precision_weighted:  0.981856707279096
+Recall_weighted:  0.9824396024670743
+mcc:  0.9704723866774498
+f2:  0.9823229680688199
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99     26529
+           1       0.93      0.98      0.95      6997
+           2       0.99      0.98      0.99     38572
+           3       0.87      0.83      0.85      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.98     74258
+   macro avg       0.76      0.76      0.76     74258
+weighted avg       0.98      0.98      0.98     74258
+
+
+- train_loop(model, epochs=20, lr=0.001, wd=0.001)
+
+training loss:  1.0706557404397241
+valid loss 1.213 and accuracy 0.902
+training loss:  0.9466593020845242
+valid loss 0.989 and accuracy 0.948
+training loss:  0.9469261621232117
+valid loss 0.961 and accuracy 0.964
+training loss:  0.9332335098567437
+valid loss 0.932 and accuracy 0.978
+training loss:  0.9311971764586576
+valid loss 0.931 and accuracy 0.982
+training loss:  0.9330510908788707
+valid loss 0.958 and accuracy 0.968
+training loss:  0.9336492683866284
+valid loss 0.937 and accuracy 0.982
+training loss:  0.9295010599504862
+valid loss 0.933 and accuracy 0.982
+training loss:  0.9282456326170369
+valid loss 0.931 and accuracy 0.981
+training loss:  0.9276289628508857
+valid loss 0.928 and accuracy 0.984
+training loss:  0.9269508403952815
+valid loss 0.929 and accuracy 0.987
+training loss:  0.9254453191357435
+valid loss 0.924 and accuracy 0.989
+training loss:  0.9260164975202975
+valid loss 0.923 and accuracy 0.990
+training loss:  0.9265316237543847
+valid loss 0.957 and accuracy 0.942
+training loss:  0.926350373709666
+valid loss 0.922 and accuracy 0.990
+training loss:  0.9259280515619503
+valid loss 0.923 and accuracy 0.990
+training loss:  0.926012532353657
+valid loss 0.926 and accuracy 0.986
+training loss:  0.9266885090918873
+valid loss 0.925 and accuracy 0.984
+training loss:  0.9261472506043226
+valid loss 0.929 and accuracy 0.980
+training loss:  0.9255108936743551
+valid loss 0.924 and accuracy 0.987
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99     26529
+           1       0.95      0.98      0.96      6997
+           2       1.00      0.99      0.99     38572
+           3       0.74      0.93      0.82      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.98     74258
+   macro avg       0.74      0.78      0.75     74258
+weighted avg       0.98      0.98      0.98     74258
+
+Accuracy:  0.9816854749656603
+Precision_weighted:  0.9830301332524553
+Recall_weighted:  0.9816854749656603
+mcc:  0.9694282350728259
+f2:  0.9819541122514621
+
+- train_loop(model, epochs=30, lr=0.001, wd=0.001)
+
+training loss:  1.054370427037625
+valid loss 1.250 and accuracy 0.844
+training loss:  0.942902779905768
+valid loss 0.949 and accuracy 0.973
+training loss:  0.9369648333134608
+valid loss 0.938 and accuracy 0.976
+training loss:  0.9333371104542609
+valid loss 0.942 and accuracy 0.982
+training loss:  0.930510131807882
+valid loss 0.932 and accuracy 0.984
+training loss:  0.9306304064737674
+valid loss 0.933 and accuracy 0.982
+training loss:  0.9308224071121763
+valid loss 0.931 and accuracy 0.986
+training loss:  0.9296791467410392
+valid loss 0.930 and accuracy 0.982
+training loss:  0.9316958085314254
+valid loss 0.984 and accuracy 0.927
+training loss:  0.9303124502366421
+valid loss 0.931 and accuracy 0.985
+training loss:  0.9260508486793247
+valid loss 0.926 and accuracy 0.988
+training loss:  0.9281191329496349
+valid loss 0.923 and accuracy 0.990
+training loss:  0.9253285397999249
+valid loss 0.923 and accuracy 0.988
+training loss:  0.9262710260126867
+valid loss 0.922 and accuracy 0.990
+training loss:  0.9265478560450006
+valid loss 0.923 and accuracy 0.986
+training loss:  0.9237157458206321
+valid loss 0.921 and accuracy 0.992
+training loss:  0.9245549985794902
+valid loss 0.931 and accuracy 0.980
+training loss:  0.9253847720119386
+valid loss 0.921 and accuracy 0.990
+training loss:  0.9238812680603812
+valid loss 0.923 and accuracy 0.990
+training loss:  0.9251665406035202
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9235670819237743
+valid loss 0.921 and accuracy 0.991
+training loss:  0.9227475347006985
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9223052965693956
+valid loss 0.919 and accuracy 0.990
+training loss:  0.923755523653718
+valid loss 0.924 and accuracy 0.988
+training loss:  0.9242702383069265
+valid loss 0.927 and accuracy 0.982
+training loss:  0.9240094125079797
+valid loss 0.921 and accuracy 0.989
+training loss:  0.9228379090393349
+valid loss 0.923 and accuracy 0.985
+training loss:  0.9219127349199774
+valid loss 0.919 and accuracy 0.992
+training loss:  0.9223529130237856
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9226301216990118
+valid loss 0.922 and accuracy 0.989
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     26529
+           1       0.94      0.98      0.96      6997
+           2       0.99      0.99      0.99     38572
+           3       0.86      0.88      0.87      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.99     74258
+   macro avg       0.76      0.77      0.76     74258
+weighted avg       0.98      0.99      0.98     74258
+
+Accuracy:  0.9852541140348514
+Precision_weighted:  0.9847705590415302
+Recall_weighted:  0.9852541140348514
+mcc:  0.9752123286185574
+f2:  0.9851573650492723
+
+- train_loop(model, epochs=40, lr=0.001, wd=0.001)
+
+training loss:  1.0633942163516528
+valid loss 1.194 and accuracy 0.914
+training loss:  0.9476146080670752
+valid loss 0.950 and accuracy 0.970
+training loss:  0.9377171945494152
+valid loss 0.932 and accuracy 0.982
+training loss:  0.9331853678119552
+valid loss 0.936 and accuracy 0.977
+training loss:  0.9354032592455936
+valid loss 0.945 and accuracy 0.975
+training loss:  0.932492713397082
+valid loss 0.941 and accuracy 0.970
+training loss:  0.9351737534638688
+valid loss 0.974 and accuracy 0.933
+training loss:  0.9337498946261514
+valid loss 0.980 and accuracy 0.922
+training loss:  0.9337115046232353
+valid loss 0.936 and accuracy 0.975
+training loss:  0.9306304555659064
+valid loss 0.932 and accuracy 0.978
+training loss:  0.9290479241500893
+valid loss 0.928 and accuracy 0.984
+training loss:  0.928098323997797
+valid loss 0.924 and accuracy 0.989
+training loss:  0.9270515606924923
+valid loss 0.924 and accuracy 0.986
+training loss:  0.927296282756408
+valid loss 0.935 and accuracy 0.974
+training loss:  0.9293585824888019
+valid loss 0.925 and accuracy 0.985
+training loss:  0.9268094848777781
+valid loss 0.926 and accuracy 0.980
+training loss:  0.9262855536244168
+valid loss 0.923 and accuracy 0.987
+training loss:  0.9243937075402233
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9290893046269632
+valid loss 0.922 and accuracy 0.989
+training loss:  0.9262616923911345
+valid loss 0.924 and accuracy 0.982
+training loss:  0.9245658302547016
+valid loss 0.930 and accuracy 0.978
+training loss:  0.924760955766995
+valid loss 0.919 and accuracy 0.991
+training loss:  0.925277301396922
+valid loss 0.929 and accuracy 0.980
+training loss:  0.9244153789743778
+valid loss 0.919 and accuracy 0.988
+training loss:  0.9241765959445787
+valid loss 0.918 and accuracy 0.991
+training loss:  0.9238140345177938
+valid loss 0.919 and accuracy 0.989
+training loss:  0.9243533142338184
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9233065848549346
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9247408667872351
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9228525832746037
+valid loss 0.925 and accuracy 0.982
+training loss:  0.9225295777321394
+valid loss 0.923 and accuracy 0.987
+training loss:  0.9228679973058648
+valid loss 0.918 and accuracy 0.992
+training loss:  0.9214264533386113
+valid loss 0.917 and accuracy 0.991
+training loss:  0.9225509208299074
+valid loss 0.923 and accuracy 0.985
+training loss:  0.9224848557652868
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9214264472832884
+valid loss 0.917 and accuracy 0.993
+training loss:  0.920630558904502
+valid loss 0.922 and accuracy 0.988
+training loss:  0.9203940239328482
+valid loss 0.920 and accuracy 0.989
+training loss:  0.9199517657865851
+valid loss 0.916 and accuracy 0.990
+training loss:  0.9198429181645615
+valid loss 0.918 and accuracy 0.990
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     26529
+           1       0.97      0.97      0.97      6997
+           2       0.99      0.99      0.99     38572
+           3       0.82      0.90      0.86      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.99     74258
+   macro avg       0.76      0.77      0.76     74258
+weighted avg       0.99      0.99      0.99     74258
+
+Accuracy:  0.9864661046621239
+Precision_weighted:  0.9861956318339367
+Recall_weighted:  0.9864661046621239
+mcc:  0.9772235493470423
+f2:  0.986411998228409
+
+- train_loop(model, epochs=50, lr=0.001, wd=0.001)
+
+training loss:  1.0745701003943158
+valid loss 1.205 and accuracy 0.885
+training loss:  0.9477316764037695
+valid loss 0.952 and accuracy 0.966
+training loss:  0.9362452443455596
+valid loss 0.940 and accuracy 0.979
+training loss:  0.9318848082597893
+valid loss 0.932 and accuracy 0.981
+training loss:  0.9304121282906791
+valid loss 0.928 and accuracy 0.986
+training loss:  0.9298473928710244
+valid loss 0.932 and accuracy 0.984
+training loss:  0.9302701802768584
+valid loss 0.930 and accuracy 0.986
+training loss:  0.9282182942678333
+valid loss 0.927 and accuracy 0.984
+training loss:  0.9322012747296615
+valid loss 0.953 and accuracy 0.963
+training loss:  0.9323453726622036
+valid loss 0.933 and accuracy 0.981
+training loss:  0.9301147847547855
+valid loss 0.930 and accuracy 0.983
+training loss:  0.9278013795517058
+valid loss 0.933 and accuracy 0.979
+training loss:  0.9278011624438763
+valid loss 0.926 and accuracy 0.986
+training loss:  0.9261119444918023
+valid loss 0.925 and accuracy 0.986
+training loss:  0.9289747609080518
+valid loss 0.923 and accuracy 0.988
+training loss:  0.9260358154074319
+valid loss 0.921 and accuracy 0.993
+training loss:  0.9265497530638671
+valid loss 0.925 and accuracy 0.988
+training loss:  0.9263067318396463
+valid loss 0.925 and accuracy 0.983
+training loss:  0.9240326636338394
+valid loss 0.921 and accuracy 0.989
+training loss:  0.924452800501077
+valid loss 0.924 and accuracy 0.990
+training loss:  0.9237791549890662
+valid loss 0.920 and accuracy 0.992
+training loss:  0.9240657214323791
+valid loss 0.919 and accuracy 0.992
+training loss:  0.9252812996975583
+valid loss 0.953 and accuracy 0.958
+training loss:  0.923907049100147
+valid loss 0.919 and accuracy 0.991
+training loss:  0.9262591695592151
+valid loss 0.926 and accuracy 0.986
+training loss:  0.9239268324082038
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9227045967000833
+valid loss 0.921 and accuracy 0.989
+training loss:  0.9227806298295977
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9226486636874714
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9222912056668885
+valid loss 0.920 and accuracy 0.991
+training loss:  0.9221179270319704
+valid loss 0.916 and accuracy 0.989
+training loss:  0.9209278006495041
+valid loss 0.919 and accuracy 0.993
+training loss:  0.9209099143636363
+valid loss 0.917 and accuracy 0.994
+training loss:  0.920874211051837
+valid loss 0.917 and accuracy 0.993
+training loss:  0.9212330347778187
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9207606092271885
+valid loss 0.917 and accuracy 0.993
+training loss:  0.9223174738652724
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9207497773991403
+valid loss 0.916 and accuracy 0.994
+training loss:  0.9207973997909032
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9221946025008345
+valid loss 0.920 and accuracy 0.989
+training loss:  0.9202842290855516
+valid loss 0.917 and accuracy 0.993
+training loss:  0.9198722147320939
+valid loss 0.918 and accuracy 0.992
+training loss:  0.9198906137883529
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9194816961237019
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9197032341387875
+valid loss 0.917 and accuracy 0.993
+training loss:  0.9198716807755484
+valid loss 0.916 and accuracy 0.995
+training loss:  0.9188471927289038
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9192953317333296
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9194730166614233
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9188691896553531
+valid loss 0.917 and accuracy 0.990
+tempo = 4 min, 3 sec
+
+[[26355    36    37   101     0]
+ [   38  6825    43    91     0]
+ [   83   170 38183   136     0]
+ [    0    67   162  1875     0]
+ [    1     1     6    48     0]]
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99     26529
+           1       0.96      0.98      0.97      6997
+           2       0.99      0.99      0.99     38572
+           3       0.83      0.89      0.86      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.99     74258
+   macro avg       0.76      0.77      0.76     74258
+weighted avg       0.99      0.99      0.99     74258
+
+Accuracy:  0.9862641062242452
+Precision_weighted:  0.9858781790263668
+Recall_weighted:  0.9862641062242452
+mcc:  0.976882965561102
+f2:  0.9861868966148447
+
+- train_loop(model, epochs=100, lr=0.001, wd=0.001)
+
+training loss:  1.0566487709991297
+valid loss 1.292 and accuracy 0.859
+training loss:  0.9481361851986178
+valid loss 0.952 and accuracy 0.969
+training loss:  0.9350429238585041
+valid loss 0.946 and accuracy 0.969
+training loss:  0.9328768795431482
+valid loss 0.933 and accuracy 0.982
+training loss:  0.9304460947830351
+valid loss 0.935 and accuracy 0.979
+training loss:  0.9296364604740684
+valid loss 0.928 and accuracy 0.987
+training loss:  0.92784830666116
+valid loss 0.935 and accuracy 0.980
+training loss:  0.9283769738465176
+valid loss 0.928 and accuracy 0.984
+training loss:  0.928414116112357
+valid loss 0.932 and accuracy 0.982
+training loss:  0.92574445044384
+valid loss 0.932 and accuracy 0.987
+training loss:  0.9265706138422917
+valid loss 0.927 and accuracy 0.984
+training loss:  0.9264280972444492
+valid loss 0.923 and accuracy 0.991
+training loss:  0.9291416549334416
+valid loss 0.928 and accuracy 0.981
+training loss:  0.9287106677366109
+valid loss 0.972 and accuracy 0.939
+training loss:  0.92731796737771
+valid loss 0.928 and accuracy 0.986
+training loss:  0.9245171028886133
+valid loss 0.925 and accuracy 0.983
+training loss:  0.9266233298636928
+valid loss 0.926 and accuracy 0.985
+training loss:  0.9252550497016911
+valid loss 0.922 and accuracy 0.988
+training loss:  0.9283592016416042
+valid loss 0.923 and accuracy 0.990
+training loss:  0.9262705270274998
+valid loss 0.926 and accuracy 0.984
+training loss:  0.9241730295687124
+valid loss 0.919 and accuracy 0.993
+training loss:  0.9242708559781034
+valid loss 0.927 and accuracy 0.985
+training loss:  0.9247135310512067
+valid loss 0.919 and accuracy 0.991
+training loss:  0.9229990736427951
+valid loss 0.927 and accuracy 0.984
+training loss:  0.9236467350997495
+valid loss 0.922 and accuracy 0.989
+training loss:  0.9230003592169183
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9231291314544791
+valid loss 0.921 and accuracy 0.988
+training loss:  0.9238402731588923
+valid loss 0.920 and accuracy 0.987
+training loss:  0.9230957290358014
+valid loss 0.923 and accuracy 0.986
+training loss:  0.9230201005679833
+valid loss 0.920 and accuracy 0.991
+training loss:  0.9221780540957831
+valid loss 0.917 and accuracy 0.993
+training loss:  0.921782895287641
+valid loss 0.921 and accuracy 0.987
+training loss:  0.921299755011764
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9213585291802177
+valid loss 0.918 and accuracy 0.992
+training loss:  0.921175997134764
+valid loss 0.918 and accuracy 0.992
+training loss:  0.9224917262941271
+valid loss 0.921 and accuracy 0.987
+training loss:  0.9221956420909628
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9206506067346465
+valid loss 0.920 and accuracy 0.991
+training loss:  0.9208139313822583
+valid loss 0.920 and accuracy 0.987
+training loss:  0.9202730617743411
+valid loss 0.918 and accuracy 0.992
+training loss:  0.9206774656202267
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9200869196217948
+valid loss 0.918 and accuracy 0.991
+training loss:  0.9198823758047983
+valid loss 0.914 and accuracy 0.991
+training loss:  0.9204303039356586
+valid loss 0.914 and accuracy 0.996
+training loss:  0.919760839046817
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9198116908959479
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9192492525916909
+valid loss 0.920 and accuracy 0.989
+training loss:  0.9189583574447375
+valid loss 0.921 and accuracy 0.991
+training loss:  0.9186900628659999
+valid loss 0.917 and accuracy 0.994
+training loss:  0.9188010121253047
+valid loss 0.919 and accuracy 0.989
+training loss:  0.9184474310397424
+valid loss 0.918 and accuracy 0.993
+training loss:  0.9189169921385657
+valid loss 0.919 and accuracy 0.989
+training loss:  0.9189090199861782
+valid loss 0.914 and accuracy 0.995
+training loss:  0.917960992224317
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9181325807646235
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9177881279246605
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9182877711283696
+valid loss 0.916 and accuracy 0.994
+training loss:  0.9182152552128091
+valid loss 0.915 and accuracy 0.995
+training loss:  0.917385302419869
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9176162660724958
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9179525783639505
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9174409467106981
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9176893406011457
+valid loss 0.920 and accuracy 0.989
+training loss:  0.9183043484511179
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9174562466992141
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9173361671409824
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9177226174727953
+valid loss 0.915 and accuracy 0.992
+training loss:  0.917516144949901
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9172883882394732
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9173022094749448
+valid loss 0.915 and accuracy 0.994
+training loss:  0.916877146990437
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9171940954773019
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9172316249366016
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9167326463066571
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9170912869226647
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9168112899481697
+valid loss 0.915 and accuracy 0.991
+training loss:  0.9162940672151041
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9171264532643778
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9163698594939427
+valid loss 0.917 and accuracy 0.991
+training loss:  0.9166927767134174
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9169083296922063
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9175174578867741
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9163723059939071
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9161896034425216
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9163392059111057
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9163442829529801
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9160694635038329
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9164003074815392
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9169986024625612
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9165772229251151
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9162945333819361
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9163100556647612
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9158830549270467
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9164726536254486
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9155618335285755
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9160257955219984
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9166568317817749
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9158177226462051
+valid loss 0.919 and accuracy 0.988
+training loss:  0.9159298999216708
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9162241361233505
+valid loss 0.912 and accuracy 0.996
+
+[[26471    11    44     3     0]
+ [   37  6915    24    21     0]
+ [   22   103 38352    95     0]
+ [    7    78   140  1879     0]
+ [    0     5     4    47     0]]
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     26529
+           1       0.97      0.99      0.98      6997
+           2       0.99      0.99      0.99     38572
+           3       0.92      0.89      0.91      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.99     74258
+   macro avg       0.78      0.77      0.78     74258
+weighted avg       0.99      0.99      0.99     74258
+
+Accuracy:  0.9913679334213149
+Precision_weighted:  0.99059188420165
+Recall_weighted:  0.9913679334213149
+mcc:  0.9854408280887841
+f2:  0.9912126263170585
+
+- train_loop(model, epochs=200, lr=0.001, wd=0.001)
+
+training loss:  1.0319876559399526
+valid loss 1.214 and accuracy 0.938
+training loss:  0.9413275987199757
+valid loss 0.949 and accuracy 0.970
+training loss:  0.9424897266981238
+valid loss 0.949 and accuracy 0.964
+training loss:  0.9333479033405192
+valid loss 0.952 and accuracy 0.960
+training loss:  0.9308707828807998
+valid loss 0.935 and accuracy 0.978
+training loss:  0.9307082552598729
+valid loss 0.935 and accuracy 0.979
+training loss:  0.9282332806836542
+valid loss 0.932 and accuracy 0.984
+training loss:  0.9299841031302157
+valid loss 0.949 and accuracy 0.956
+training loss:  0.9297706954202584
+valid loss 0.928 and accuracy 0.985
+training loss:  0.9278891453070766
+valid loss 0.933 and accuracy 0.979
+training loss:  0.9271453303030068
+valid loss 0.934 and accuracy 0.978
+training loss:  0.9260319877024356
+valid loss 0.936 and accuracy 0.978
+training loss:  0.9273674970350423
+valid loss 0.955 and accuracy 0.956
+training loss:  0.9271617317074116
+valid loss 0.923 and accuracy 0.987
+training loss:  0.926608085501084
+valid loss 0.929 and accuracy 0.981
+training loss:  0.9275530380842402
+valid loss 0.933 and accuracy 0.978
+training loss:  0.9264652517006753
+valid loss 0.939 and accuracy 0.968
+training loss:  0.9264978638158208
+valid loss 0.924 and accuracy 0.987
+training loss:  0.9252002274196992
+valid loss 0.923 and accuracy 0.986
+training loss:  0.9258388758881867
+valid loss 0.924 and accuracy 0.986
+training loss:  0.925588597410143
+valid loss 0.921 and accuracy 0.991
+training loss:  0.9263218518596466
+valid loss 0.929 and accuracy 0.983
+training loss:  0.9230907700187323
+valid loss 0.922 and accuracy 0.989
+training loss:  0.9228553126785892
+valid loss 0.921 and accuracy 0.986
+training loss:  0.9242273701476913
+valid loss 0.926 and accuracy 0.983
+training loss:  0.9252540280648892
+valid loss 0.929 and accuracy 0.982
+training loss:  0.9252253066649847
+valid loss 0.919 and accuracy 0.992
+training loss:  0.9233836335526379
+valid loss 0.929 and accuracy 0.982
+training loss:  0.9244408280462248
+valid loss 0.926 and accuracy 0.982
+training loss:  0.9227939045875446
+valid loss 0.922 and accuracy 0.988
+training loss:  0.9240942563133869
+valid loss 0.923 and accuracy 0.987
+training loss:  0.925822421763433
+valid loss 0.922 and accuracy 0.989
+training loss:  0.9222111649352965
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9220760722962267
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9231728528128635
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9216030638397809
+valid loss 0.920 and accuracy 0.989
+training loss:  0.9208340254172576
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9203070862964595
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9205883557841864
+valid loss 0.922 and accuracy 0.988
+training loss:  0.9208645963835614
+valid loss 0.920 and accuracy 0.990
+training loss:  0.9207297375962442
+valid loss 0.921 and accuracy 0.987
+training loss:  0.9203486325662469
+valid loss 0.921 and accuracy 0.987
+training loss:  0.9205432618161721
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9206401247730216
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9204705849220536
+valid loss 0.918 and accuracy 0.989
+training loss:  0.9195221970620179
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9189740829554957
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9195904117646054
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9197508331581669
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9193905006799581
+valid loss 0.920 and accuracy 0.988
+training loss:  0.9192358575396462
+valid loss 0.925 and accuracy 0.987
+training loss:  0.9211955118223843
+valid loss 0.917 and accuracy 0.990
+training loss:  0.91947427779829
+valid loss 0.924 and accuracy 0.987
+training loss:  0.9192068037731186
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9184485419929723
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9187771279748266
+valid loss 0.915 and accuracy 0.992
+training loss:  0.918649732782482
+valid loss 0.914 and accuracy 0.993
+training loss:  0.918246638539304
+valid loss 0.913 and accuracy 0.994
+training loss:  0.918600399580092
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9178453626987936
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9184339483209091
+valid loss 0.916 and accuracy 0.995
+training loss:  0.9180048730644568
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9180264026661701
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9183183490935967
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9178004204876371
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9175550317251947
+valid loss 0.917 and accuracy 0.990
+training loss:  0.9172435802488264
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9178152186850839
+valid loss 0.916 and accuracy 0.991
+training loss:  0.9173922802550115
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9172589907764728
+valid loss 0.914 and accuracy 0.995
+training loss:  0.918427538411926
+valid loss 0.918 and accuracy 0.988
+training loss:  0.9184673776321977
+valid loss 0.917 and accuracy 0.994
+training loss:  0.9188843775531141
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9178615866913744
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9169920409113479
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9171906117163074
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9172925656547335
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9165426624728643
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9169291512298127
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9172322910221202
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9164725090851402
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9168839635197517
+valid loss 0.916 and accuracy 0.994
+training loss:  0.9163274291337222
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9166380211845078
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9173370183881414
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9167231796490793
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9164032432831577
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9165386165220697
+valid loss 0.919 and accuracy 0.990
+training loss:  0.9161749729202052
+valid loss 0.915 and accuracy 0.994
+training loss:  0.916728691905035
+valid loss 0.912 and accuracy 0.994
+training loss:  0.9162832730363791
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9163231813903304
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9170067569923034
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9167700609540443
+valid loss 0.918 and accuracy 0.989
+training loss:  0.9164617427625619
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9161036474678361
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9165842918509202
+valid loss 0.914 and accuracy 0.994
+training loss:  0.91608651373484
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9163648302068864
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9164463020745899
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9161732109558051
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9159954251172919
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9158113709115149
+valid loss 0.915 and accuracy 0.992
+training loss:  0.9164894890461602
+valid loss 0.916 and accuracy 0.991
+training loss:  0.9161330429921365
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9157714781867756
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9159430445906822
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9164064576113555
+valid loss 0.916 and accuracy 0.991
+training loss:  0.9163747902810798
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9166264384399373
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9165421973642602
+valid loss 0.915 and accuracy 0.996
+training loss:  0.9164582176393096
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9156928319104914
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9157634257668884
+valid loss 0.914 and accuracy 0.996
+training loss:  0.9161893198739931
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9161275016822598
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9166418269341824
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9171527445926
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9164185160933246
+valid loss 0.917 and accuracy 0.992
+training loss:  0.9161416752660895
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9158352096296279
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9161104174550585
+valid loss 0.914 and accuracy 0.995
+training loss:  0.915632304579037
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9165339948238646
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9161987130636422
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9158911460029856
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9163864826361316
+valid loss 0.917 and accuracy 0.990
+training loss:  0.9162291156836632
+valid loss 0.917 and accuracy 0.994
+training loss:  0.916001938318953
+valid loss 0.912 and accuracy 0.995
+training loss:  0.9161029397874823
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9162295933581006
+valid loss 0.919 and accuracy 0.988
+training loss:  0.9159099139206093
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9163922852801222
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9159621509302519
+valid loss 0.914 and accuracy 0.996
+training loss:  0.915997331786466
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9159904233092744
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9161185624474596
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9157980599512094
+valid loss 0.914 and accuracy 0.996
+training loss:  0.9161186026019753
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9162672621114234
+valid loss 0.916 and accuracy 0.991
+training loss:  0.9155854921901255
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9159884692723577
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9156977365791686
+valid loss 0.914 and accuracy 0.996
+training loss:  0.915553048577422
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9160077226956376
+valid loss 0.914 and accuracy 0.993
+training loss:  0.9152286072157308
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9159317642301649
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9156633425394844
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9156278492036899
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9157822651938055
+valid loss 0.916 and accuracy 0.994
+training loss:  0.9156781192152007
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9156630430875699
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9155993741648881
+valid loss 0.913 and accuracy 0.996
+training loss:  0.915368901699455
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9162320263386636
+valid loss 0.920 and accuracy 0.986
+training loss:  0.9163958610255415
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9156614253013216
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9156226766721145
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9155622397452189
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9153999677785294
+valid loss 0.913 and accuracy 0.994
+training loss:  0.915275238052938
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9159282061905429
+valid loss 0.919 and accuracy 0.988
+training loss:  0.9160042253222107
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9159799383424152
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9156689215252646
+valid loss 0.914 and accuracy 0.994
+training loss:  0.9151466634481586
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9157531955189727
+valid loss 0.912 and accuracy 0.995
+training loss:  0.9156398727408805
+valid loss 0.915 and accuracy 0.994
+training loss:  0.9159505657751812
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9158770140854258
+valid loss 0.918 and accuracy 0.990
+training loss:  0.9154329030053725
+valid loss 0.916 and accuracy 0.990
+training loss:  0.9155557405264528
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9155599674973461
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9149984773519948
+valid loss 0.916 and accuracy 0.994
+training loss:  0.9162531711408043
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9152361595872194
+valid loss 0.913 and accuracy 0.996
+training loss:  0.9154113944702023
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9154739318598626
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9159515188049255
+valid loss 0.917 and accuracy 0.989
+training loss:  0.9158923493875216
+valid loss 0.915 and accuracy 0.995
+training loss:  0.9158719813313027
+valid loss 0.916 and accuracy 0.993
+training loss:  0.9159448690121248
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9157269501813017
+valid loss 0.912 and accuracy 0.996
+training loss:  0.9158002165000525
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9155092925118206
+valid loss 0.914 and accuracy 0.992
+training loss:  0.9158573217401138
+valid loss 0.915 and accuracy 0.996
+training loss:  0.9155957736449748
+valid loss 0.916 and accuracy 0.992
+training loss:  0.9161495575986847
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9158470331667299
+valid loss 0.920 and accuracy 0.987
+training loss:  0.9155480144427849
+valid loss 0.911 and accuracy 0.996
+training loss:  0.9155205367032048
+valid loss 0.915 and accuracy 0.993
+training loss:  0.9157222358125678
+valid loss 0.912 and accuracy 0.996
+training loss:  0.916313492657731
+valid loss 0.913 and accuracy 0.994
+training loss:  0.9155689238498547
+valid loss 0.916 and accuracy 0.995
+training loss:  0.9156066947113713
+valid loss 0.915 and accuracy 0.994
+training loss:  0.915433496350598
+valid loss 0.914 and accuracy 0.995
+training loss:  0.9156609133432906
+valid loss 0.912 and accuracy 0.995
+training loss:  0.9159408653206728
+valid loss 0.913 and accuracy 0.995
+training loss:  0.9157143807629817
+valid loss 0.914 and accuracy 0.993
+training loss:  0.915640340972669
+valid loss 0.914 and accuracy 0.994
+
+
+[[26465    16    40     8     0]
+ [   14  6952    12    19     0]
+ [   20   170 38141   241     0]
+ [    3    74    32  1995     0]
+ [    0     3     2    51     0]]
+
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     26529
+           1       0.96      0.99      0.98      6997
+           2       1.00      0.99      0.99     38572
+           3       0.86      0.95      0.90      2104
+           4       0.00      0.00      0.00        56
+
+    accuracy                           0.99     74258
+   macro avg       0.76      0.79      0.77     74258
+weighted avg       0.99      0.99      0.99     74258
+
+Accuracy:  0.9905060734196989
+Precision_weighted:  0.9902378534629495
+Recall_weighted:  0.9905060734196989
+mcc:  0.9840842476894776
+f2:  0.9904524178047904
+
