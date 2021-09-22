@@ -1,7 +1,8 @@
 # DNN_Tabular_Data
 
+
 Il presente repository contiene il codice utilizzato per il lavoro di Tesi - per il corso di laurea triennale in Informatica presso l'Università degli Studi di Firenze - dal titolo "Soluzioni basate su Reti Neurali Artificiali per l'analisi di Dati Tabulari" con autore Marco Pellegrino.\
 In particolare il contenuto è così suddiviso:
-  *
+  * Models: la cartella contiene 
   *
 Il codice è scritto in Python e contenuto in dei [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#scrollTo=gJr_9dXGpJ05) notebooks.
