@@ -1,2 +1,3 @@
 # DNN_Tabular_Data
-Modelli e implementazioni di alcune Deep Neural Networks (DNN) per l'analisi di tabular data.
+
+Notebook di https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#scrollTo=gJr_9dXGpJ05
